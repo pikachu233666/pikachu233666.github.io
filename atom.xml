@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>鹿啵包の小窝</title>
+  <icon>https://www.gravatar.com/avatar/38f469f0d513564df3a15762906e604d</icon>
+  <subtitle>Pochacco.top</subtitle>
+  <link href="https://pochacco.top/atom.xml" rel="self"/>
+  
+  <link href="https://pochacco.top/"/>
+  <updated>2022-11-07T08:00:06.886Z</updated>
+  <id>https://pochacco.top/</id>
+  
+  <author>
+    <name>Gabriel</name>
+    <email>2586970609@qq.com</email>
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo禁用F12调试模式</title>
+    <link href="https://pochacco.top/articles/1d2825e1/"/>
+    <id>https://pochacco.top/articles/1d2825e1/</id>
+    <published>2022-11-07T06:05:16.000Z</published>
+    <updated>2022-11-07T08:00:06.886Z</updated>
+    
+    
+    <summary type="html">如何禁用F12和调试模式</summary>
+    
+    
+    
+    <category term="Hexo博客" scheme="https://pochacco.top/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="Hexo" scheme="https://pochacco.top/tags/Hexo/"/>
+    
+    <category term="Butterfly" scheme="https://pochacco.top/tags/Butterfly/"/>
+    
+    <category term="web" scheme="https://pochacco.top/tags/web/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>雅思个人2022年9到12月口语题库</title>
+    <link href="https://pochacco.top/articles/acddc89f/"/>
+    <id>https://pochacco.top/articles/acddc89f/</id>
+    <published>2022-11-04T14:04:11.000Z</published>
+    <updated>2022-11-07T08:00:06.886Z</updated>
+    
+    
+    <summary type="html">雅思2022年9到12月口语题库</summary>
+    
+    
+    
+    <category term="IELTS" scheme="https://pochacco.top/categories/IELTS/"/>
+    
+    
+    <category term="IELTS" scheme="https://pochacco.top/tags/IELTS/"/>
+    
+    <category term="Speaking" scheme="https://pochacco.top/tags/Speaking/"/>
+    
+    <category term="Part2口语题库" scheme="https://pochacco.top/tags/Part2%E5%8F%A3%E8%AF%AD%E9%A2%98%E5%BA%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HackerGame2022WriteUp</title>
+    <link href="https://pochacco.top/articles/b8d13f57/"/>
+    <id>https://pochacco.top/articles/b8d13f57/</id>
+    <published>2022-10-29T04:00:00.000Z</published>
+    <updated>2022-11-07T08:00:06.886Z</updated>
+    
+    
+    <summary type="html">WriteUp</summary>
+    
+    
+    
+    <category term="CTFWriteUp" scheme="https://pochacco.top/categories/CTFWriteUp/"/>
+    
+    
+    <category term="hackergame" scheme="https://pochacco.top/tags/hackergame/"/>
+    
+    <category term="CTF" scheme="https://pochacco.top/tags/CTF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DiscoArtAI本地部署</title>
+    <link href="https://pochacco.top/articles/ce2bff93/"/>
+    <id>https://pochacco.top/articles/ce2bff93/</id>
+    <published>2022-10-21T04:30:00.000Z</published>
+    <updated>2022-11-07T08:00:06.886Z</updated>
+    
+    
+    <summary type="html">随着NovelAI包的泄露，越来越多的人开始使用AI绘画，DiscoArt采用Disco Diffusion数据集，擅长于风景绘画，如今与Stable Diffusion，NovelAI，Midjourney并称四大AI绘画工具，其中Disco Diffusion，Stable Diffusion，NovelAI为开源项目并可自行本地部署，Midjourney为订阅项目，如需画二次元人物，请移步NovelAI。</summary>
+    
+    
+    
+    <category term="实用教程" scheme="https://pochacco.top/categories/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="机器学习" scheme="https://pochacco.top/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="AI绘画" scheme="https://pochacco.top/tags/AI%E7%BB%98%E7%94%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>InvokeAI本地部署</title>
+    <link href="https://pochacco.top/articles/c3dfb6a9/"/>
+    <id>https://pochacco.top/articles/c3dfb6a9/</id>
+    <published>2022-10-21T04:15:00.000Z</published>
+    <updated>2022-11-07T08:00:06.886Z</updated>
+    
+    
+    <summary type="html">随着NovelAI包的泄露，越来越多的人开始使用AI绘画，DiscoArt采用Disco Diffusion数据集，擅长于风景绘画，如今与Stable Diffusion，NovelAI，Midjourney并称四大AI绘画工具，其中Disco Diffusion，Stable Diffusion，NovelAI为开源项目并可自行本地部署，Midjourney为订阅项目，如需画二次元人物，请移步NovelAI。</summary>
+    
+    
+    
+    <category term="实用教程" scheme="https://pochacco.top/categories/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="机器学习" scheme="https://pochacco.top/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="AI绘画" scheme="https://pochacco.top/tags/AI%E7%BB%98%E7%94%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NovelAI本地部署</title>
+    <link href="https://pochacco.top/articles/b75672c/"/>
+    <id>https://pochacco.top/articles/b75672c/</id>
+    <published>2022-10-11T06:00:00.000Z</published>
+    <updated>2022-11-07T08:00:06.886Z</updated>
+    
+    
+    <summary type="html">随着NovelAI包的泄露，越来越多的人开始使用AI绘画，DiscoArt采用Disco Diffusion数据集，擅长于风景绘画，如今与Stable Diffusion，NovelAI，Midjourney并称四大AI绘画工具，其中Disco Diffusion，Stable Diffusion，NovelAI为开源项目并可自行本地部署，Midjourney为订阅项目，如需画二次元人物，请移步NovelAI。</summary>
+    
+    
+    
+    <category term="实用教程" scheme="https://pochacco.top/categories/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="机器学习" scheme="https://pochacco.top/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="AI绘画" scheme="https://pochacco.top/tags/AI%E7%BB%98%E7%94%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>雅思个人2022年5到8月口语题库</title>
+    <link href="https://pochacco.top/articles/d8b154c3/"/>
+    <id>https://pochacco.top/articles/d8b154c3/</id>
+    <published>2022-08-25T04:00:00.000Z</published>
+    <updated>2022-11-07T08:00:06.886Z</updated>
+    
+    
+    <summary type="html">雅思2022年5到8月口语题库</summary>
+    
+    
+    
+    <category term="IELTS" scheme="https://pochacco.top/categories/IELTS/"/>
+    
+    
+    <category term="IELTS" scheme="https://pochacco.top/tags/IELTS/"/>
+    
+    <category term="Speaking" scheme="https://pochacco.top/tags/Speaking/"/>
+    
+    <category term="Part2口语题库" scheme="https://pochacco.top/tags/Part2%E5%8F%A3%E8%AF%AD%E9%A2%98%E5%BA%93/"/>
+    
+  </entry>
+  
+</feed>
