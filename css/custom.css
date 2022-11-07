@@ -1,3 +1,104 @@
+/* 颜色 */
+:root {
+  --gabriel-theme-op: #4259ef23;
+  --gabriel-gray-op: #9999992b;
+  --gabriel-theme-top: var(--gabriel-theme);
+  --gabriel-white: #fff;
+  --gabriel-white-op: rgba(255, 255, 255, 0.2);
+  --gabriel-black: #000;
+  --gabriel-black-op: rgba(0, 0, 0, 0.2);
+  --gabriel-none: rgba(0, 0, 0, 0);
+  --gabriel-gray: #999999;
+  --gabriel-yellow: #ffc93e;
+  --gabriel-border-radius: 8px;
+  --gabriel-main: var(--gabriel-theme);
+  --gabriel-main-op: var(--gabriel-theme-op);
+  --gabriel-shadow-theme: 0 8px 12px -3px var(--gabriel-theme-op);
+  --gabriel-shadow-main: 0 8px 12px -3px var(--gabriel-main-op);
+  --gabriel-shadow-blue: 0 8px 12px -3px rgba(40, 109, 234, 0.2);
+  --gabriel-shadow-white: 0 8px 12px -3px rgba(255, 255, 255, 0.2);
+  --gabriel-shadow-black: 0 0 12px 4px rgba(0, 0, 0, 0.05);
+  --gabriel-shadow-yellow: 0px 38px 77px -26px rgba(255, 201, 62, 0.12);
+  --gabriel-shadow-red: 0 8px 12px -3px #ee7d7936;
+  --gabriel-shadow-green: 0 8px 12px -3px #87ee7936;
+  --gabriel-shadow-border: 0 8px 16px -4px #2c2d300c;
+  --gabriel-shadow-blackdeep: 0 2px 16px -3px rgba(0, 0, 0, 0.15);
+  --gabriel-logo-color: linear-gradient(215deg, #4584ff 30%, #ff7676 70%);
+  --style-border: 1px solid var(--gabriel-card-border);
+  --gabriel-blue-main: #3b70fc;
+  --style-border-hover: 1px solid var(--gabriel-main);
+  --style-border-dashed: 1px dashed var(--gabriel-theme-op);
+  --style-border-avatar: 4px solid var(--gabriel-background);
+  --style-border-always: 1px solid var(--gabriel-card-border);
+  --style-border-none: 1px solid transparent;
+  --gabriel-white-acrylic1: #fefeff !important;
+  --gabriel-white-acrylic2: #fcfdff !important;
+  --gabriel-black-acrylic2: #08080a !important;
+  --gabriel-black-acrylic1: #0b0b0e !important;
+  --gabriel-main-none: #b8b8b800 !important;
+}
+
+[data-theme="light"] {
+  --gabriel-theme: #3b70fc;
+  --gabriel-theme-deep: #1856fb;
+  --gabriel-theme-op: #4259ef23;
+  --gabriel-blue: #3b70fc;
+  --gabriel-red: #d8213c;
+  --gabriel-pink: #ff7c7c;
+  --gabriel-green: #57bd6a;
+  --gabriel-fontcolor: #363636;
+  --gabriel-background: #f7f9fe;
+  --gabriel-reverse: #000;
+  --gabriel-maskbg: rgba(255, 255, 255, 0.6);
+  --gabriel-maskbgdeep: rgba(255, 255, 255, 0.85);
+  --gabriel-hovertext: var(--gabriel-theme);
+  --gabriel-ahoverbg: #f7f7fa;
+  --gabriel-lighttext: var(--gabriel-main);
+  --gabriel-secondtext: rgba(60, 60, 67, 0.6);
+  --gabriel-scrollbar: rgba(60, 60, 67, 0.4);
+  --gabriel-card-btn-bg: #edf0f7;
+  --gabriel-post-blockquote-bg: #fafcff;
+  --gabriel-post-tabs-bg: #f2f5f8;
+  --gabriel-secondbg: #f1f3f8;
+  --gabriel-shadow-nav: 0 5px 12px -5px rgba(102, 68, 68, 0.05);
+  --gabriel-card-bg: #fff;
+  --gabriel-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
+  --gabriel-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
+  --gabriel-card-border: #e3e8f7;
+}
+
+[data-theme="dark"] {
+  --global-bg: #191919;
+  --gabriel-theme: #0084ff;
+  --gabriel-theme-deep: #0076e5;
+  --gabriel-theme-op: #0084ff23;
+  --gabriel-blue: #0084ff;
+  --gabriel-red: #ff3842;
+  --gabriel-pink: #ff7c7c;
+  --gabriel-green: #57bd6a;
+  --gabriel-fontcolor: #f7f7fa;
+  --gabriel-background: #18171d;
+  --gabriel-reverse: #fff;
+  --gabriel-maskbg: rgba(0, 0, 0, 0.6);
+  --gabriel-maskbgdeep: rgba(0, 0, 0, 0.85);
+  --gabriel-hovertext: #0a84ff;
+  --gabriel-ahoverbg: #fff;
+  --gabriel-lighttext: #f2b94b;
+  --gabriel-secondtext: #a1a2b8;
+  --gabriel-scrollbar: rgba(200, 200, 223, 0.4);
+  --gabriel-card-btn-bg: #30343f;
+  --gabriel-post-blockquote-bg: #000;
+  --gabriel-post-tabs-bg: #121212;
+  --gabriel-secondbg: #30343f;
+  --gabriel-shadow-nav: 0 5px 20px 0px rgba(28, 28, 28, 0.4);
+  --gabriel-card-bg: #1d1b26;
+  --gabriel-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
+  --gabriel-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
+  --gabriel-card-border: #42444a;
+}
+
+
+
 /* 全局Aplayer隐藏 */
 .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
   left: -66px !important;
@@ -147,7 +248,7 @@ h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
 /* CopyRight样式修改 */
 /* 版权css修改 */
 .layout #post .post-copyright {
-  border: 1px solid var(--anzhiyu-blue-main);
+  border: 1px solid var(--gabriel-blue-main);
   border-radius: 15px;
   overflow: hidden;
 }
