@@ -115,39 +115,39 @@
 /* 全局默认鼠标指针 */
 body,
 html{
-  cursor: url('https://pochacco.top/cur/Normalselect.cur'),auto !important;
+  cursor: url('/cur/Normalselect.cur'),auto !important;
 }
 /* 悬停图片时的鼠标指针 */
 img{
-  cursor: url('https://pochacco.top/cur/Linkselect.cur'),auto !important;
+  cursor: url('/cur/Linkselect.cur'),auto !important;
 }
 /* 选择链接标签时的鼠标指针 */
 a:hover{
-    cursor: url('https://pochacco.top/cur/Linkselect.cur'),auto;
+    cursor: url('/cur/Linkselect.cur'),auto;
 }
 /* 选中输入框时的鼠标指针 */
 input:hover{
-    cursor: url('https://pochacco.top/cur/Textselect.cur'),auto;
+    cursor: url('/cur/Textselect.cur'),auto;
 }
 /* 悬停按钮时的鼠标指针 */
 button:hover{
-    cursor: url('https://pochacco.top/cur/Linkselect.cur'),auto;
+    cursor: url('/cur/Linkselect.cur'),auto;
 }
 /* 悬停列表标签时的鼠标指针 */
 i:hover{
-    cursor: url('https://pochacco.top/cur/Locationselect.cur'),auto;
+    cursor: url('/cur/Locationselect.cur'),auto;
 }
 /* 悬停页脚链接标签（例如页脚徽标）时的鼠标指针 */
 #footer-wrap a:hover{
-      cursor: url('https://pochacco.top/cur/Linkselect.cur'),auto;
+      cursor: url('/cur/Linkselect.cur'),auto;
 }
 /* 悬停页码时的鼠标指针 */
 #pagination .page-number:hover{
-      cursor: url('https://pochacco.top/cur/Locationselect.cur'),auto;
+      cursor: url('/cur/Locationselect.cur'),auto;
 }
 /* 悬停菜单栏时的鼠标指针 */
 #nav .site-page:hover{
-      cursor: url('https://pochacco.top/cur/Locationselect.cur'),auto;
+      cursor: url('/cur/Locationselect.cur'),auto;
 }
 
 
@@ -553,7 +553,7 @@ svg.icon {
 }
 
 #bber .bber-bottom .bber-reply {
-  cursor: url(/img/x2.cur), auto !important;
+  cursor: url(/cur/Normalselect.cur), auto !important;
 }
 
 #bber .timeline ul li.bber-item:hover {
@@ -643,7 +643,7 @@ svg.icon {
 /* 顶部样式 */
 .author-content.author-content-item.essayPage {
   height: 19rem;
-  background: url(https://image.anzhiy.cn/adminuploads/1/2022/08/21/630249e2df20f.jpg) left 28% / cover no-repeat;
+  background: url(https://pochacco.top/img/background.jpg) left 28% / cover no-repeat;
   color: var(--gabriel-white);
   overflow: hidden;
   margin-top: 0px;
@@ -714,14 +714,14 @@ svg.icon {
   line-height: 22px;
   margin-right: 1rem;
   transition: all 0.3s ease 0s;
-  cursor: url(/img/x2.cur), auto !important;
+  cursor: url(/cur/Normalselect.cur), auto !important;
 }
 
 .bber-gotobb {
   line-height: 25px;
   margin-left: 1rem;
   transition: all 0.3s ease 0s;
-  cursor: url(/img/x2.cur), auto !important;
+  cursor: url(/cur/Normalselect.cur), auto !important;
 }
 
 #bber-talk .li-style {
@@ -734,7 +734,7 @@ svg.icon {
   transition: 0.3s;
   font-weight: 700;
   margin: auto;
-  cursor: url(/img/x2.cur), auto !important;
+  cursor: url(/cur/Normalselect.cur), auto !important;
   white-space: nowrap;
 }
 
