@@ -643,7 +643,7 @@ svg.icon {
 /* 顶部样式 */
 .author-content.author-content-item.essayPage {
   height: 19rem;
-  background: url(https://pochacco.top/img/background.jpg) left 28% / cover no-repeat;
+  background: url(/img/background.webp) left 28% / cover no-repeat;
   color: var(--gabriel-white);
   overflow: hidden;
   margin-top: 0px;
