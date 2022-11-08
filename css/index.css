@@ -1403,7 +1403,7 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: url(https://pochacco.top/img/home-bg.webp);
+  background: url(/img/home-bg.webp);
   background-attachment: local;
   background-position: center;
   background-size: cover;
@@ -6557,7 +6557,7 @@ blockquote.pullquote.right {
   #about-page .about-statistic {
     min-height: 380px;
     width: 39%;
-    background: url(https://pochacco.top/img/about-chart.webp) no-repeat top;
+    background: url(/img/about/chart.webp) no-repeat top;
     background-size: cover;
     color: var(--gabriel-white);
     overflow: hidden;
@@ -6716,7 +6716,7 @@ blockquote.pullquote.right {
   }
   
   .author-content-item.map {
-    background: url(https://pochacco.top/img/about-map.png) no-repeat center;
+    background: url(/img/about/map.png) no-repeat center;
     min-height: 160px;
     max-height: 400px;
     position: relative;
@@ -6727,7 +6727,7 @@ blockquote.pullquote.right {
     transition: 1s ease-in-out;
   }
   [data-theme="dark"] .author-content-item.map {
-    background: url(https://pochacco.top/img/about-map-dark.png) no-repeat center;
+    background: url(/img/about/map-dark.png) no-repeat center;
     background-size: 100%;
   }
   
@@ -7027,7 +7027,7 @@ blockquote.pullquote.right {
     transition: 2s ease-in-out;
   }
   .author-content-item.game-hollowknight {
-    background: url(https://pochacco.top/img/hollowknight.webp) no-repeat top;
+    background: url(/img/about/hollowknight.webp) no-repeat top;
     background-size: cover;
     min-height: 300px;
     overflow: hidden;
@@ -7052,7 +7052,7 @@ blockquote.pullquote.right {
     margin-right: 0.5rem;
   }
   .icon-pos-mid {
-    background: url(https://pochacco.top/img/hollowknight-loading.png);
+    background: url(/img/about/hollowknight-loading.png);
   }
   .author-content-item.game-hollowknight::after {
     box-shadow: 0 -69px 203px 11px #575d8b inset;
@@ -7066,7 +7066,7 @@ blockquote.pullquote.right {
   
   .author-content-item.historical-drama {
     width: 39%;
-    background: url(https://pochacco.top/img/puellamagica.png) no-repeat top;
+    background: url(/img/about/puellamagica.png) no-repeat top;
     background-size: cover;
     min-height: 300px;
     overflow: hidden;
@@ -7083,14 +7083,14 @@ blockquote.pullquote.right {
   }
   
   .author-content-item.like-technology {
-    background: url(https://pochacco.top/img/technology.webp) no-repeat;
+    background: url(/img/about/technology.webp) no-repeat;
     background-size: cover;
     min-height: 230px;
     color: var(--gabriel-white);
   }
   
   .author-content-item.like-music {
-    background: url(https://pochacco.top/img/kano.webp) no-repeat top;
+    background: url(/img/about/kano.webp) no-repeat top;
     background-size: cover;
     min-height: 400px;
     color: var(--gabriel-white);
