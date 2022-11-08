@@ -677,5 +677,5 @@ svg.icon {
 }
 
 
- .zhuifan { display: flex; }
+ .zhuifan { display: flex; flex-wrap: wrap}
 .zhuifan>.zhuifan-item:not(:first-child) { margin-left: 6px;}
