@@ -7329,7 +7329,7 @@ blockquote.pullquote.right {
     filter: drop-shadow(0 -500px 0 var(--loadingbar-prospect-color));
     width: 500px;
     height: 62.5px;
-    background: url("https://pochacco.top/img/hollowknight-loading.png") no-repeat left 100%;
+    background: url("") no-repeat left 100%;
     background-size: 500px 62.5px;
     background-position-x: 0;
   }
