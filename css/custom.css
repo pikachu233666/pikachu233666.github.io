@@ -678,4 +678,4 @@ svg.icon {
 
 
  .zhuifan { display: flex; flex-wrap: wrap}
-.zhuifan>.zhuifan-item:not(:first-child) { margin-left: 6px;}
+.zhuifan>.zhuifan-item:not(:first-child) { margin-left: 4px;}
