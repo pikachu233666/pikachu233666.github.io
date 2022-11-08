@@ -679,6 +679,5 @@ svg.icon {
 
 
 /* 追番页*/
- .zhuifan { display: flex; flex-wrap: wrap}
-.zhuifan>.zhuifan-item:not(:first-child) { margin-left: 4px;}
-.zhuifan-item { display: flex; } 
+.zhuifan-item { display: flex; }
+.zhuifan-item＞div:not(:first-child) { margin-left: px; }
