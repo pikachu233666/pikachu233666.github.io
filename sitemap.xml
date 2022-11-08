@@ -29,6 +29,15 @@
   </url>
   
   <url>
+    <loc>https://pochacco.top/img/siteicon/manifest.json</loc>
+    
+    <lastmod>2022-11-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pochacco.top/img/siteicon/README.html</loc>
     
     <lastmod>2022-11-08</lastmod>
@@ -38,7 +47,61 @@
   </url>
   
   <url>
-    <loc>https://pochacco.top/img/siteicon/manifest.json</loc>
+    <loc>https://pochacco.top/articles/c3dfb6a9/</loc>
+    
+    <lastmod>2022-11-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pochacco.top/articles/b75672c/</loc>
+    
+    <lastmod>2022-11-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pochacco.top/articles/1d2825e1/</loc>
+    
+    <lastmod>2022-11-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pochacco.top/articles/acddc89f/</loc>
+    
+    <lastmod>2022-11-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pochacco.top/about/index.html</loc>
+    
+    <lastmod>2022-11-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pochacco.top/bangumis/index.html</loc>
+    
+    <lastmod>2022-11-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pochacco.top/bilibili/index.html</loc>
     
     <lastmod>2022-11-08</lastmod>
     
@@ -92,70 +155,7 @@
   </url>
   
   <url>
-    <loc>https://pochacco.top/articles/c3dfb6a9/</loc>
-    
-    <lastmod>2022-11-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pochacco.top/articles/b75672c/</loc>
-    
-    <lastmod>2022-11-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pochacco.top/articles/1d2825e1/</loc>
-    
-    <lastmod>2022-11-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pochacco.top/articles/d8b154c3/</loc>
-    
-    <lastmod>2022-11-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pochacco.top/articles/acddc89f/</loc>
-    
-    <lastmod>2022-11-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pochacco.top/about/index.html</loc>
-    
-    <lastmod>2022-11-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pochacco.top/bangumis/index.html</loc>
-    
-    <lastmod>2022-11-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pochacco.top/bilibili/index.html</loc>
     
     <lastmod>2022-11-08</lastmod>
     
