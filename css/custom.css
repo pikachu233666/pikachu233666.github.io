@@ -680,4 +680,4 @@ svg.icon {
 
 /* 追番页*/
 .zhuifan-item { display: flex; }
-.zhuifan-item＞div:not(:first-child) { margin-left: px; }
+.zhuifan-item＞div:not(:first-child) { margin-left: 4px; }
