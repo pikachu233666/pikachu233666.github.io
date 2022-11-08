@@ -676,3 +676,6 @@ svg.icon {
   color: var(--gabriel-fontcolor);
 }
 
+
+ .zhuifan { display: flex; }
+.zhuifan>.zhuifan-item:not(:first-child) { margin-left: 6px;}
