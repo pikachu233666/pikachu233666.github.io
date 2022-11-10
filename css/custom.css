@@ -679,10 +679,5 @@ svg.icon {
 
 
 /* 追番页*/
-.zhuifan-item { display: flex; }
-.zhuifan-item＞div:not(:first-child) { margin-left: 4px; }
-
-/* .zhuifan { display: flex; flex-wrap: wrap; }
+.zhuifan { display: flex; flex-wrap: wrap; justify-content: space-evenly; }
 .zhuifan>.zhuifan-item:not(:first-child) { margin-left: 4px;} 
-.zhuifan-item { display: flex;  justify-content: space-around;}
-.zhuifan-item＞div:not(:first-child) { margin-left: 2px; } */
