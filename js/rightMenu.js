@@ -61,10 +61,3 @@ $('#menu-darkmode').on('click',kk.switchDarkMode);
 
 $('#menu-home').on('click',function(){window.location.href = window.location.origin;});
 
-
-//音乐灵动岛
-const metingJs = document.querySelector("#nav-music meting-js");
-//判断是否是音乐
-if (metingJs.contains(event.target)) {
-} else {
-}
