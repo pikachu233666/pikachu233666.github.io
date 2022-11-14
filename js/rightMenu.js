@@ -28,6 +28,16 @@ window.oncontextmenu = function(event){
     kk.showRightMenu(true, pageY, pageX);
     $('#rightmenu-mask').attr('style','display: flex');
     return false;
+
+    function addRightMenuClickEvent(){
+    const metingJs = document.querySelector("#nav-music meting-js");
+    //判断是否是音乐
+    if (metingJs.contains(event.target)) {
+    $('#menu-music').show;
+    $('#rightmenu-mask').hide;
+    } else {
+    }
+    }
 };
 
 function RemoveRightMenu(){
