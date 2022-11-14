@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://pochacco.top/tags/index.html</loc>
-    
-    <lastmod>2022-11-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pochacco.top/link/index.html</loc>
     
     <lastmod>2022-11-14</lastmod>
@@ -29,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://pochacco.top/img/siteicon/manifest.json</loc>
+    <loc>https://pochacco.top/tags/index.html</loc>
     
     <lastmod>2022-11-14</lastmod>
     
@@ -47,34 +38,16 @@
   </url>
   
   <url>
+    <loc>https://pochacco.top/img/siteicon/manifest.json</loc>
+    
+    <lastmod>2022-11-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pochacco.top/film/index.html</loc>
-    
-    <lastmod>2022-11-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pochacco.top/articles/7a43fd18/</loc>
-    
-    <lastmod>2022-11-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pochacco.top/articles/1d2825e1/</loc>
-    
-    <lastmod>2022-11-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pochacco.top/about/index.html</loc>
     
     <lastmod>2022-11-14</lastmod>
     
@@ -209,6 +182,24 @@
   </url>
   
   <url>
+    <loc>https://pochacco.top/articles/7a43fd18/</loc>
+    
+    <lastmod>2022-11-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pochacco.top/articles/1d2825e1/</loc>
+    
+    <lastmod>2022-11-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pochacco.top/articles/d8b154c3/</loc>
     
     <lastmod>2022-11-14</lastmod>
@@ -219,6 +210,15 @@
   
   <url>
     <loc>https://pochacco.top/articles/acddc89f/</loc>
+    
+    <lastmod>2022-11-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pochacco.top/about/index.html</loc>
     
     <lastmod>2022-11-14</lastmod>
     
