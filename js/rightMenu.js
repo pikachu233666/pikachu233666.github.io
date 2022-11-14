@@ -62,12 +62,3 @@ $('#menu-darkmode').on('click',kk.switchDarkMode);
 $('#menu-home').on('click',function(){window.location.href = window.location.origin;});
 
 
-function addRightMenuClickEvent(){
-const metingJs = document.querySelector("#nav-music meting-js");
-//判断是否是音乐
-if (metingJs.contains(event.target)) {
-$('#menu-music').show;
-$('#rightmenu-mask').hide;
-} else {
-}
-}

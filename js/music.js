@@ -1,3 +1,14 @@
+function addRightMenuClickEvent(){
+const metingJs = document.querySelector("#nav-music meting-js");
+//判断是否是音乐
+if (metingJs.contains(event.target)) {
+$('#menu-music').show;
+$('#rightmenu-mask').hide;
+} else {
+}
+}
+
+
 var gabriel_musicPlaying = false;
 var gabriel_musicStretch = false;
 var gabriel_musicFirst = false;
