@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>布尔逻辑和逻辑门</title>
+      <link href="/articles/c2595a6b/"/>
+      <url>/articles/c2595a6b/</url>
+      
+        <content type="html"><![CDATA[<div class="note info simple"><p>本文参考Crash Course课程</p></div><p>二进制：<br>电路闭合，电流流过，代表“真”，写作“true”或1<br>电路断开，无电流流过，代表“假”，写作“false”或0</p><p>计算机使用二进制的原因：</p><ol><li>只有两种状态，易辨别</li><li>有完整的二进制数学支持，解决所有法则和运算，称为“布尔代数”，由乔治·布尔发明</li></ol><p>布尔代数可进行逻辑操作，变量为true和false</p><ol><li>NOT（非门） ：反转布尔值</li><li>AND（与门）：同真为真，否则为假，导线串联晶体管</li><li>OR（或门）：同假为假，否则为真，导线并联晶体管</li><li>XOR（异或门）：不同为真，相同为假</li></ol><ul><li><img src="/image/20221125-5.webp" alt="异或门原理实现"></li></ul><p>符号：<br><img src="/image/20221125-1.webp" alt="非门"><br><img src="/image/20221125-2.webp" alt="与门"><br><img src="/image/20221125-3.webp" alt="或门"><br><img src="/image/20221125-4.webp" alt="异或门"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> CS自学笔记 </category>
+          
+          <category> CrashCourse </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CS </tag>
+            
+            <tag> CS自学指南 </tag>
+            
+            <tag> CrashCourse </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>电子计算机</title>
       <link href="/articles/4d557b94/"/>
       <url>/articles/4d557b94/</url>
