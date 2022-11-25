@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://pochacco.top/img/siteicon/README.html</loc>
+    <loc>https://pochacco.top/img/siteicon/manifest.json</loc>
     
     <lastmod>2022-11-25</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://pochacco.top/img/siteicon/manifest.json</loc>
+    <loc>https://pochacco.top/img/siteicon/README.html</loc>
     
     <lastmod>2022-11-25</lastmod>
     
@@ -120,6 +120,15 @@
   
   <url>
     <loc>https://pochacco.top/articles/ec09da96/</loc>
+    
+    <lastmod>2022-11-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pochacco.top/articles/4d557b94/</loc>
     
     <lastmod>2022-11-25</lastmod>
     

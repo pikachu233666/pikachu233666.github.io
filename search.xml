@@ -4,11 +4,42 @@
   
     
     <entry>
+      <title>电子计算机</title>
+      <link href="/articles/4d557b94/"/>
+      <url>/articles/4d557b94/</url>
+      
+        <content type="html"><![CDATA[<p>本文参考Crash Course课程</p><div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>电子计算机</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>1944年</p></div></div><div class='timeline-item-content'><p>最大的机电计算机之一——哈佛马克一号<br>IBM建造，为“曼哈顿计划”跑模拟<br>大脑：约3500个继电器：用电控制的机械开关<br>Bug：在继电器旁找到虫子，故有bug一词</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>1904年</p></div></div><div class='timeline-item-content'><p>热电子管——世界上第一个真空管</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>1906年</p></div></div><div class='timeline-item-content'><p>三极真空管——可控制电流方向</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>1940年</p></div></div><div class='timeline-item-content'><p>三极真空管——可控制电流方向</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>1941年</p></div></div><div class='timeline-item-content'><p>图灵：”计算机科学之父“<br>机电装置——Bombe<br>在英国布莱切利园建造，破解纳粹英格码通讯加密设备</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>1943年12月</p></div></div><div class='timeline-item-content'><p>第一个大规模使用真空管的计算机——巨人1号<br>被认为是世界上第一个可编程的电子计算机<br>在英国布莱切利园，破解纳粹通信，使用1600个真空管</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>1946年</p></div></div><div class='timeline-item-content'><p>电子数值积分计算机“ENIAC”<br>世界上第一个真正的通用可编程电子计算机<br>每秒可执行5000次十位数加减法<br>在宾西法尼亚大学建成，运行10年</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>1955年</p></div></div><div class='timeline-item-content'><p>AN/FSQ-7计算机<br>是美国空军“SAGE”防空计算机系统的一部分</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>1947年</p></div></div><div class='timeline-item-content'><p>晶体管，固态，半导体<br>贝尔实验室</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>1957年</p></div></div><div class='timeline-item-content'><p>小型计算机IBM608<br>第一个完全用晶体管的计算机，3000个晶体管<br>圣克拉拉谷：硅谷，生产晶体管和半导体集中地区，位于加州<br>诞生了肖克利半导体，仙童半导体，成立了英特尔——世界上最大的计算机芯片制造商</p></div></div></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> CS自学笔记 </category>
+          
+          <category> CrashCourse </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CS </tag>
+            
+            <tag> CS自学指南 </tag>
+            
+            <tag> CrashCourse </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>计算机早期历史</title>
       <link href="/articles/ec09da96/"/>
       <url>/articles/ec09da96/</url>
       
-        <content type="html"><![CDATA[<p>本文参考Crash Course课程</p><div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>计算机历史</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>公元前2500年</p></div></div><div class='timeline-item-content'><p>最早的计算设备——算盘<br>发明地：美索不达米亚<br>原理：十进制</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>公元前2500年至公元1500年</p></div></div><div class='timeline-item-content'><p>星盘：在海上计算维度<br>计算尺：计算乘法和除法<br>时钟：计算日出，潮汐，天体位置，计时</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>1613年</p></div></div><div class='timeline-item-content'><p>书中最早出现了”计算机“一词<br>计算机：一种职业，负责计算的人，持续到1800年</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>1694年</p></div></div><div class='timeline-item-content'><p>步进计算机<br>发明者：戈特弗里德·莱布尼兹（德国博学家）<br>第一台可以做加减乘除四种运算的机器</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>20世纪前</p></div></div><div class='timeline-item-content'><p>计算表<br>快速查询结果，常用于军队射击计算</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>1822年</p></div></div><div class='timeline-item-content'><p>Charles Babbage写论文《机械在天文与计算表中的应用》<br>提出差分机，类似多项式，1823年开始建造，最终失败</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>1890年</p></div></div><div class='timeline-item-content'><p>打孔卡片制表机<br>打孔卡：储存数据</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>1924年</p></div></div><div class='timeline-item-content'><p>机械制造商合并，成立IBM（国际商业机器公司）</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>1991年</p></div></div><div class='timeline-item-content'><p>根据草稿重造差分机<br>Charles Babbage根据拆分机衍生出分析机，第一个通用计算机，失败，产生自动计算机概念，被认为是“计算之父”<br>英国数学家Ada Lovelace给分析机写了假想程序，被认为是世界上第一位程序员</p></div></div></div>]]></content>
+        <content type="html"><![CDATA[<p>本文参考Crash Course课程</p><div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>计算机历史</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>公元前2500年</p></div></div><div class='timeline-item-content'><p>最早的计算设备——算盘<br>发明地：美索不达米亚<br>原理：十进制</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>公元前2500年至公元1500年</p></div></div><div class='timeline-item-content'><p>星盘：在海上计算维度<br>计算尺：计算乘法和除法<br>时钟：计算日出，潮汐，天体位置，计时</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>1613年</p></div></div><div class='timeline-item-content'><p>书中最早出现了”计算机“一词<br>计算机：一种职业，负责计算的人，持续到1800年</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>1694年</p></div></div><div class='timeline-item-content'><p>步进计算机<br>发明者：戈特弗里德·莱布尼兹（德国博学家）<br>第一台可以做加减乘除四种运算的机器</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>20世纪前</p></div></div><div class='timeline-item-content'><p>计算表<br>快速查询结果，常用于军队射击计算</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>1822年</p></div></div><div class='timeline-item-content'><p>Charles Babbage写论文《机械在天文与计算表中的应用》<br>提出差分机，类似多项式，1823年开始建造，最终失败</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>1890年</p></div></div><div class='timeline-item-content'><p>打孔卡片制表机，美国人口普查<br>打孔卡：储存数据</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>1924年</p></div></div><div class='timeline-item-content'><p>机械制造商合并，成立IBM（国际商业机器公司）</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>1991年</p></div></div><div class='timeline-item-content'><p>根据草稿重造差分机<br>Charles Babbage根据拆分机衍生出分析机，第一个通用计算机，失败，产生自动计算机概念，被认为是“计算之父”<br>英国数学家Ada Lovelace给分析机写了假想程序，被认为是世界上第一位程序员</p></div></div></div>]]></content>
       
       
       <categories>
