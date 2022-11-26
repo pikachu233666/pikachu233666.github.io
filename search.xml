@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>二进制</title>
+      <link href="/articles/f5e3f89e/"/>
+      <url>/articles/f5e3f89e/</url>
+      
+        <content type="html"><![CDATA[<div class="note info simple"><p>本文参考Crash Course课程</p></div><p>十进制：</p><table><thead><tr><th align="center">1000’s</th><th align="center">100‘s</th><th align="center">10’s</th><th align="center">1‘s</th></tr></thead><tbody><tr><td align="center">千位</td><td align="center">百位</td><td align="center">十位</td><td align="center">个位</td></tr></tbody></table><p>二进制：</p><table><thead><tr><th align="center">8’s</th><th align="center">4‘s</th><th align="center">2’s</th><th align="center">1‘s</th></tr></thead><tbody><tr><td align="center">千位</td><td align="center">百位</td><td align="center">十位</td><td align="center">个位</td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> CS自学笔记 </category>
+          
+          <category> CrashCourse </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CS </tag>
+            
+            <tag> CS自学指南 </tag>
+            
+            <tag> CrashCourse </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>布尔逻辑和逻辑门</title>
       <link href="/articles/c2595a6b/"/>
       <url>/articles/c2595a6b/</url>
