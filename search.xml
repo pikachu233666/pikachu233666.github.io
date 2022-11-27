@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>算术逻辑单元</title>
+      <link href="/articles/4f45fc20/"/>
+      <url>/articles/4f45fc20/</url>
+      
+        <content type="html"><![CDATA[<div class="note info simple"><p>本文参考Crash Course课程</p></div><h1 id="算术逻辑单元（ALU）"><a href="#算术逻辑单元（ALU）" class="headerlink" title="算术逻辑单元（ALU）"></a>算术逻辑单元（ALU）</h1><p>计算机中负责运算的组件<br>最著名的ALU：英特尔74181，1970年发布，第一个封装在单个芯片内的完整ALU，处理4位输入<br><img src="/image/20221127-1.webp" alt="intel74181"></p><p>ALU有2个单元，算术单元和逻辑单元：</p><h2 id="算术单元"><a href="#算术单元" class="headerlink" title="算术单元"></a>算术单元</h2><p>负责计算机中所有数字操作</p><h3 id="半加器"><a href="#半加器" class="headerlink" title="半加器"></a>半加器</h3><p>原理：<br><img src="/image/20221127-2.webp" alt="半加器原理"><br>封装：<br><img src="/image/20221127-3.webp" alt="半加器封装"><br>表格：<br><img src="/image/20221127-4.webp" alt="半加器表格"></p><h3 id="全加器"><a href="#全加器" class="headerlink" title="全加器"></a>全加器</h3><p>表格：<br><img src="/image/20221127-5.webp" alt="全加器表格"><br>原理：<br><img src="/image/20221127-6.webp" alt="全加器原理"><br>封装：<br><img src="/image/20221127-7.webp" alt="全加器封装"></p><p>溢出：计算结果超过了用来表示的位数<br>现代：超前进位加法器<br>ALU支持的操作：</p><ol><li>加法</li><li>带进位的加法</li><li>减法</li><li>带借位的减法</li><li>变号</li><li>增量</li><li>减量</li><li>数字无改变通过</li></ol><h2 id="逻辑单元"><a href="#逻辑单元" class="headerlink" title="逻辑单元"></a>逻辑单元</h2><p>负责计算机中的逻辑操作（AND,OR,NOT等）</p><p>ALU符号<br><img src="/image/20221127-8.webp" alt="ALU符号"><br>8位ALU：<br><img src="/image/20221127-9.webp" alt="8位ALU"></p><p>4位操作码：<br>1000加法<br>1100减法</p><p>输出标志（1位）：<br>溢出标志<br>零标志<br>变号标志</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> CS自学笔记 </category>
+          
+          <category> CrashCourse </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CS </tag>
+            
+            <tag> CS自学指南 </tag>
+            
+            <tag> CrashCourse </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>二进制</title>
       <link href="/articles/f5e3f89e/"/>
       <url>/articles/f5e3f89e/</url>

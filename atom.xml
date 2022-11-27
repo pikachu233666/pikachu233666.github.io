@@ -6,7 +6,7 @@
   <link href="https://pochacco.top/atom.xml" rel="self"/>
   
   <link href="https://pochacco.top/"/>
-  <updated>2022-11-26T12:26:31.748Z</updated>
+  <updated>2022-11-27T05:36:19.781Z</updated>
   <id>https://pochacco.top/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>算术逻辑单元</title>
+    <link href="https://pochacco.top/articles/4f45fc20/"/>
+    <id>https://pochacco.top/articles/4f45fc20/</id>
+    <published>2022-11-27T03:50:00.000Z</published>
+    <updated>2022-11-27T05:36:19.781Z</updated>
+    
+    
+    <summary type="html">第五节</summary>
+    
+    
+    
+    <category term="CS自学笔记" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/CrashCourse/"/>
+    
+    
+    <category term="CS" scheme="https://pochacco.top/tags/CS/"/>
+    
+    <category term="CS自学指南" scheme="https://pochacco.top/tags/CS%E8%87%AA%E5%AD%A6%E6%8C%87%E5%8D%97/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/tags/CrashCourse/"/>
+    
+  </entry>
+  
+  <entry>
     <title>二进制</title>
     <link href="https://pochacco.top/articles/f5e3f89e/"/>
     <id>https://pochacco.top/articles/f5e3f89e/</id>
     <published>2022-11-26T05:02:00.000Z</published>
-    <updated>2022-11-26T12:26:31.748Z</updated>
+    <updated>2022-11-27T05:36:19.781Z</updated>
     
     
     <summary type="html">第四节</summary>
@@ -46,7 +71,7 @@
     <link href="https://pochacco.top/articles/c2595a6b/"/>
     <id>https://pochacco.top/articles/c2595a6b/</id>
     <published>2022-11-25T10:45:00.000Z</published>
-    <updated>2022-11-26T12:26:31.748Z</updated>
+    <updated>2022-11-27T05:36:19.781Z</updated>
     
     
     <summary type="html">第三节</summary>
@@ -71,7 +96,7 @@
     <link href="https://pochacco.top/articles/4d557b94/"/>
     <id>https://pochacco.top/articles/4d557b94/</id>
     <published>2022-11-25T04:56:00.000Z</published>
-    <updated>2022-11-26T12:26:31.748Z</updated>
+    <updated>2022-11-27T05:36:19.781Z</updated>
     
     
     <summary type="html">第二节</summary>
@@ -96,7 +121,7 @@
     <link href="https://pochacco.top/articles/ec09da96/"/>
     <id>https://pochacco.top/articles/ec09da96/</id>
     <published>2022-11-25T02:27:19.000Z</published>
-    <updated>2022-11-26T12:26:31.748Z</updated>
+    <updated>2022-11-27T05:36:19.781Z</updated>
     
     
     <summary type="html">第一节</summary>
@@ -121,7 +146,7 @@
     <link href="https://pochacco.top/articles/96b9d504/"/>
     <id>https://pochacco.top/articles/96b9d504/</id>
     <published>2022-11-13T13:16:44.000Z</published>
-    <updated>2022-11-26T12:26:31.748Z</updated>
+    <updated>2022-11-27T05:36:19.781Z</updated>
     
     
     <summary type="html">第二届上上策漫展Day2</summary>
@@ -140,7 +165,7 @@
     <link href="https://pochacco.top/articles/41a96602/"/>
     <id>https://pochacco.top/articles/41a96602/</id>
     <published>2022-11-12T12:45:07.000Z</published>
-    <updated>2022-11-26T12:26:31.748Z</updated>
+    <updated>2022-11-27T05:36:19.781Z</updated>
     
     
     <summary type="html">第二届上上策漫展Day1</summary>
@@ -159,7 +184,7 @@
     <link href="https://pochacco.top/articles/2ff462c4/"/>
     <id>https://pochacco.top/articles/2ff462c4/</id>
     <published>2022-11-11T04:19:00.000Z</published>
-    <updated>2022-11-26T12:26:31.748Z</updated>
+    <updated>2022-11-27T05:36:19.781Z</updated>
     
     
     <summary type="html"> </summary>
@@ -178,7 +203,7 @@
     <link href="https://pochacco.top/articles/7a43fd18/"/>
     <id>https://pochacco.top/articles/7a43fd18/</id>
     <published>2022-11-10T16:39:55.000Z</published>
-    <updated>2022-11-26T12:26:31.748Z</updated>
+    <updated>2022-11-27T05:36:19.785Z</updated>
     
     
     <summary type="html">高效代码编辑器Vim</summary>
@@ -203,7 +228,7 @@
     <link href="https://pochacco.top/articles/a15f21c3/"/>
     <id>https://pochacco.top/articles/a15f21c3/</id>
     <published>2022-11-10T11:47:58.000Z</published>
-    <updated>2022-11-26T12:26:31.748Z</updated>
+    <updated>2022-11-27T05:36:19.781Z</updated>
     
     
     <summary type="html"> </summary>
@@ -222,7 +247,7 @@
     <link href="https://pochacco.top/articles/6d25e45/"/>
     <id>https://pochacco.top/articles/6d25e45/</id>
     <published>2022-11-09T13:05:00.000Z</published>
-    <updated>2022-11-26T12:26:31.748Z</updated>
+    <updated>2022-11-27T05:36:19.781Z</updated>
     
     
     <summary type="html">快乐的一天</summary>
@@ -241,7 +266,7 @@
     <link href="https://pochacco.top/articles/1d2825e1/"/>
     <id>https://pochacco.top/articles/1d2825e1/</id>
     <published>2022-11-07T06:05:16.000Z</published>
-    <updated>2022-11-26T12:26:31.748Z</updated>
+    <updated>2022-11-27T05:36:19.785Z</updated>
     
     
     <summary type="html">如何禁用F12和调试模式</summary>
@@ -264,7 +289,7 @@
     <link href="https://pochacco.top/articles/acddc89f/"/>
     <id>https://pochacco.top/articles/acddc89f/</id>
     <published>2022-11-04T14:04:11.000Z</published>
-    <updated>2022-11-26T12:26:31.748Z</updated>
+    <updated>2022-11-27T05:36:19.785Z</updated>
     
     
     <summary type="html">雅思2022年9到12月口语题库</summary>
@@ -287,7 +312,7 @@
     <link href="https://pochacco.top/articles/b8d13f57/"/>
     <id>https://pochacco.top/articles/b8d13f57/</id>
     <published>2022-10-29T04:00:00.000Z</published>
-    <updated>2022-11-26T12:26:31.748Z</updated>
+    <updated>2022-11-27T05:36:19.781Z</updated>
     
     
     <summary type="html">WriteUp</summary>
@@ -308,7 +333,7 @@
     <link href="https://pochacco.top/articles/ce2bff93/"/>
     <id>https://pochacco.top/articles/ce2bff93/</id>
     <published>2022-10-21T04:30:00.000Z</published>
-    <updated>2022-11-26T12:26:31.748Z</updated>
+    <updated>2022-11-27T05:36:19.781Z</updated>
     
     
     <summary type="html">随着NovelAI包的泄露，越来越多的人开始使用AI绘画，DiscoArt采用Disco Diffusion数据集，擅长于风景绘画，如今与Stable Diffusion，NovelAI，Midjourney并称四大AI绘画工具，其中Disco Diffusion，Stable Diffusion，NovelAI为开源项目并可自行本地部署，Midjourney为订阅项目，如需画二次元人物，请移步NovelAI。</summary>
@@ -329,7 +354,7 @@
     <link href="https://pochacco.top/articles/c3dfb6a9/"/>
     <id>https://pochacco.top/articles/c3dfb6a9/</id>
     <published>2022-10-21T04:15:00.000Z</published>
-    <updated>2022-11-26T12:26:31.748Z</updated>
+    <updated>2022-11-27T05:36:19.785Z</updated>
     
     
     <summary type="html">随着NovelAI包的泄露，越来越多的人开始使用AI绘画，DiscoArt采用Disco Diffusion数据集，擅长于风景绘画，如今与Stable Diffusion，NovelAI，Midjourney并称四大AI绘画工具，其中Disco Diffusion，Stable Diffusion，NovelAI为开源项目并可自行本地部署，Midjourney为订阅项目，如需画二次元人物，请移步NovelAI。</summary>
@@ -350,7 +375,7 @@
     <link href="https://pochacco.top/articles/b75672c/"/>
     <id>https://pochacco.top/articles/b75672c/</id>
     <published>2022-10-11T06:00:00.000Z</published>
-    <updated>2022-11-26T12:26:31.748Z</updated>
+    <updated>2022-11-27T05:36:19.785Z</updated>
     
     
     <summary type="html">随着NovelAI包的泄露，越来越多的人开始使用AI绘画，DiscoArt采用Disco Diffusion数据集，擅长于风景绘画，如今与Stable Diffusion，NovelAI，Midjourney并称四大AI绘画工具，其中Disco Diffusion，Stable Diffusion，NovelAI为开源项目并可自行本地部署，Midjourney为订阅项目，如需画二次元人物，请移步NovelAI。</summary>
@@ -371,7 +396,7 @@
     <link href="https://pochacco.top/articles/d8b154c3/"/>
     <id>https://pochacco.top/articles/d8b154c3/</id>
     <published>2022-08-25T04:00:00.000Z</published>
-    <updated>2022-11-26T12:26:31.748Z</updated>
+    <updated>2022-11-27T05:36:19.781Z</updated>
     
     
     <summary type="html">雅思2022年5到8月口语题库</summary>
