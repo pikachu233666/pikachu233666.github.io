@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>寄存器和内存</title>
+      <link href="/articles/ea3013ec/"/>
+      <url>/articles/ea3013ec/</url>
+      
+        <content type="html"><![CDATA[<div class="note info simple"><p>本文参考Crash Course课程</p></div><p>储存分为RAM和持久储存<br>随机存取存储器（RAM）：只能在有电的情况下存储东西<br>持久储存：电源关闭时数据不会丢失</p><p>只能储存0和只能储存1的电路<br><img src="/image/20221128-1.webp" alt="20221128-1"></p><p>AND-OR锁存器<br><img src="/image/20221128-2.webp" alt="AND-OR锁存器"><br>两个输入，设置输入，把输出变为1；复位输入，把输出变为0；设置和复位都为0时，输出最后的信息<br>锁存：锁定了一个值<br>写入：放入数据的动作<br>读取：拿出数据的动作</p><p>门锁原理<br><img src="/image/20221128-3.webp" alt="门锁原理"><br>门锁封装<br><img src="/image/20221128-4.webp" alt="门锁封装"></p><p>寄存器：一组锁存器<br>位宽：寄存器存的数字有多少位</p><p>8位寄存器<br><img src="/image/20221128-5.webp" alt="8位寄存器"></p><p>为了减少线的使用，不采用并排防止锁存器，而采用矩阵来减少线<br>16*16门锁矩阵<br><img src="/image/20221128-6.webp" alt="16*16门锁矩阵"><br>启用锁存器，只需要打开相应的行线和列线<br>单个锁存器原理，利用与门进行单个寄存器允许写入<br><img src="/image/20221128-7.webp" alt="单个锁存器原理"></p><p>为了把地址转换成行和列，需要用多路复用器，两个多路复用器分别处理行和列</p><p>256位内存封装<br><img src="/image/20221128-8.webp" alt="256位内存封装"><br>8个256位内存并排，每个内存存1位数字，一个地址可存8位数字，共可存256个字节<br><img src="/image/20221128-9.webp" alt="256位内存"></p><p>8位最多能表示256个内存地址<br>内存的特性：可以随时访问任何位置</p><p>RAM的类型：SRAM（静态随机存取存储器），DRAM，闪存，NVRAM</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> CS自学笔记 </category>
+          
+          <category> CrashCourse </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CS </tag>
+            
+            <tag> CS自学指南 </tag>
+            
+            <tag> CrashCourse </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>算术逻辑单元</title>
       <link href="/articles/4f45fc20/"/>
       <url>/articles/4f45fc20/</url>
