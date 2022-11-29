@@ -4,6 +4,68 @@
   
     
     <entry>
+      <title>指令和程序</title>
+      <link href="/articles/f57da707/"/>
+      <url>/articles/f57da707/</url>
+      
+        <content type="html"><![CDATA[<div class="note info simple"><p>本文参考Crash Course课程</p></div><p>CPU的强大在于它是可编程的<br>CPU是硬件，可以被软件控制</p><p>JUMP指令：跳到第几个指令<br>JUMP_NEG：当ALU的计算结果为负数时，进行跳转<br>HALT：暂停指令</p><p>无限循环：程序永远跑下去<br>指令长度：操作码的位数<br>可变指令长度：不需要的只有操作码，需要地址的在操作码后紧跟地址，此时地址成为立即值</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> CS自学笔记 </category>
+          
+          <category> CrashCourse </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CS </tag>
+            
+            <tag> CS自学指南 </tag>
+            
+            <tag> CrashCourse </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>中央处理器</title>
+      <link href="/articles/dffce14c/"/>
+      <url>/articles/dffce14c/</url>
+      
+        <content type="html"><![CDATA[<div class="note info simple"><p>本文参考Crash Course课程</p></div><p>中央处理单元（CPU）：计算机的心脏，执行计算机程序<br>程序：由许多指令组成<br>数学指令-&gt;CPU让ALU进行数学运算<br>内存指令-&gt;CPU和内存通信，读/写值</p><p>微体系架构：高层次视角</p><p>CPU指令表<br><img src="/image/20221128-10.webp" alt="简单CPU指令表"><br>前四位表示操作代码，后四位表示寄存器或内存地址<br>指令地址寄存器：一个寄存器追踪程序运行到哪里，存当前指令的内存地址<br>指令寄存器：存当前指令<br><img src="/image/20221128-11.webp" alt="简单CPU实现"><br>计算机启动时，所有寄存器从0开始<br>取指令阶段：CPU的第一个阶段，将指令地址寄存器连到RAM，将地址为0的数据存到指令寄存器<br>解码阶段：指令由控制单元解码<br>执行阶段：执行指令，之后把指令地址寄存器+1</p><p>执行过程：<br><img src="/image/20221128-12.webp" alt="简单CPU实现过程"></p><p>计算数学指令使用ALU，计算结果由控制单元自己的寄存器暂存，关闭ALU后把值写入寄存器，否则会重复做计算<br><img src="/image/20221128-13.webp" alt="简单CPU数学实现过程"></p><p>时钟：以精确的间隔触发电信号，推进CPU内部操作的执行，确保一切按步骤进行<br>时钟速度：CPU执行一遍操作的速度，单位为赫兹，表示频率的单位，1赫兹代表每秒1个周期<br>第一个单芯片CPU是1971年发布的4位CPU”英特尔4004“，时钟速度为740千赫兹<br>超频：修改时钟速度，加快CPU的速度<br>降频：省电<br>现代CPU大多支持动态调整频率<br>CPU和RAM之间用地址线，数据线和允许读/写线进行通信</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> CS自学笔记 </category>
+          
+          <category> CrashCourse </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CS </tag>
+            
+            <tag> CS自学指南 </tag>
+            
+            <tag> CrashCourse </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>寄存器和内存</title>
       <link href="/articles/ea3013ec/"/>
       <url>/articles/ea3013ec/</url>
