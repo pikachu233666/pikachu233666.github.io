@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>高级CPU设计</title>
+      <link href="/articles/152988cb/"/>
+      <url>/articles/152988cb/</url>
+      
+        <content type="html"><![CDATA[<div class="note info simple"><p>本文参考Crash Course课程</p></div><p>早期计算机的提速方式：减少晶体管的切换时间<br>直接在硬件层面增加除法指令，产生很多次复杂度vs速度的平衡<br>现代处理器有专门电路处理图形操作，解码压缩视频，加密文档等</p><p>intel4004，第一个集成CPU，有46条指令</p><p>超高的时钟速度要求快速传送数据给CPU，RAM与CPU之间的数据用线传递，叫总线</p><p>解决延迟的方法：</p><p>方法一：<br>是给CPU加一点RAM，称为缓存，一个时钟周期就能给数据<br>Cache一般是KB或MB左右，RAM都是GB起步<br>缓存命中：想要的数据已经在缓存中<br>缓存未命中：想要的数据不在缓存<br>缓存可以当临时空间，存一些中间值，适合长/复杂的运算<br>脏位：缓存和RAM不一样，要同步，缓存的每块空间有个特殊标记<br>同步：一般发生在缓存满了而CPU又要缓存时，清理缓存之前先检查脏位，如果是脏的，加载新内容之前把数据写回RAM</p><p>方法二：<br>指令流水线<br>并行处理<br>流水线处理器，要弄清数据依赖性，必要时停止流水线<br>乱序执行：动态排序有依赖关系的指令，最小化流水线的执行时间<br>简单的流水线处理器，看到JUMP指令会停一会，等待条件值确定下来<br>推测执行：高级的流水线处理器，把JUMP想成岔路口，猜哪条路可能性高一点，提前把指令放进流水线，CPU猜对了，就得出结果，CPU猜错了，清空流水线<br>分支预测：用复杂方法预测哪条分支更有可能，现代CPU预测正确能力达90%，一个时钟周期理想情况下完成一个指令</p><p>超标量处理器：一个时钟周期可以完成多个指令<br>用多核处理器同时运行多个指令流</p><p>超级计算机：多个CPU<br>最快算力的超级计算机：中国无锡的国家超算中心——神威太湖之光，40960个CPU，每个CPU有256个核心，每个核心频率是1.45GHz，每秒可以进行9.3亿亿次浮点数运算，每秒浮点运算次数（FLOPS）</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> CS自学笔记 </category>
+          
+          <category> CrashCourse </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CS </tag>
+            
+            <tag> CS自学指南 </tag>
+            
+            <tag> CrashCourse </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>指令和程序</title>
       <link href="/articles/f57da707/"/>
       <url>/articles/f57da707/</url>
