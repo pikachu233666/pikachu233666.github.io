@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>早期的编程方式</title>
+      <link href="/articles/90abd3d/"/>
+      <url>/articles/90abd3d/</url>
+      
+        <content type="html"><![CDATA[<div class="note info simple"><p>本文参考Crash Course课程</p></div><p>雅卡尔可编程纺织机：每一行的团由可穿孔纸卡决定<br>穿孔纸卡于1890年用于美国人口普查——纸卡用于汇总数据</p><p>插线板：通过面板插电线进行编程<br>世界上第一台通用电子计算机ENIAC，完成于1946年，使用插线板编程，插线最多耗费长达3个星期<br>存储程序计算机：1940年代晚期到1950年代初，内存价格下降，容量上升，数据存在内存里易于修改，方便CPU快速读取程序<br>冯诺依曼结构：程序和数据都存在一个地方<br>约翰·冯·诺伊曼：杰出的数学家和物理学家，参加了曼哈顿计划和早期电子计算机项目<br>冯诺依曼计算机的标志：一个处理器（有算术逻辑单元）+数据寄存器+指令寄存器+指令地址寄存器+内存（负责存数据和指令）<br>第一台冯诺依曼架构的储存程序计算机由曼彻斯特大学于1948年建造完成，绰号宝宝<br>1980年代，所有的计算机都有穿孔纸卡读取器<br>用纸卡的最大型程序，是美国空军的SAGE防空系统，于1955年完成，主程序用了62500张穿孔纸卡，等同于大约5MB的数据<br>面板编程：用很多开关和按钮代替插线，面板指示灯代表各种函数的状态和内存中的值<br>第一款取得商业成功的家用计算机是Altair 8800，由预先装好的整机和需要组装的组件，1975年卖400美元左右</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> CS自学笔记 </category>
+          
+          <category> CrashCourse </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CS </tag>
+            
+            <tag> CS自学指南 </tag>
+            
+            <tag> CrashCourse </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>高级CPU设计</title>
       <link href="/articles/152988cb/"/>
       <url>/articles/152988cb/</url>
