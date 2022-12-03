@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>编程语言发展史</title>
+      <link href="/articles/fbdd2f2a/"/>
+      <url>/articles/fbdd2f2a/</url>
+      
+        <content type="html"><![CDATA[<div class="note info simple"><p>本文参考Crash Course课程</p></div><p>指令的操作码，简称OPCODE<br>二进制是计算机的”母语“，称为机器语言或机器码<br>伪代码：对程序的高层次描述<br>操作码表：用于将伪代码转成二进制机器码</p><p>1940-1950年代，产生一种更高层次的语言——汇编语言，为每个操作码分配一个简单的名字，称为助记符，助记符后紧跟数据，形成完整指令<br>汇编器：读取汇编语言程序，转成机器码<br>汇编语言与机器语言一一对应</p><p>哈佛1号，1944年建成，程序卸载打孔纸带上，如果程序有漏洞，直接用胶带来补漏洞（补丁的由来）<br>循环：把带子两端连起来<br>算术语言版本0，简称“A-0”，一行高级编程语言可能对应几十条二进制指令<br>第一个编译器1952年创造，专门把高级语言转成低级语言</p><p>变量：代表内存地址的抽象<br>FORTRAN：1957年由IBM发布的语言，名字来自公式翻译，比同等汇编语言短20倍，只能运行在IBM计算机上<br>数据系统语言委员会：1959年成立，开发一种可以在不同机器上的通用编程语言——普通面向商业语言，简称COBOL，可以一次编写，到处运行<br>1960年代，产生ALGOL,LISP,BASIC等语言<br>1970年代，产生Pascal,C和Smalltalk<br>1980年代，产生C++,Objective-C和Perl<br>1990年代，产生了Python,Ruby和Java<br>2000年，产生Swift,C#,Go语言</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> CS自学笔记 </category>
+          
+          <category> CrashCourse </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CS </tag>
+            
+            <tag> CS自学指南 </tag>
+            
+            <tag> CrashCourse </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>早期的编程方式</title>
       <link href="/articles/90abd3d/"/>
       <url>/articles/90abd3d/</url>
