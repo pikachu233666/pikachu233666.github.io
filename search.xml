@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>语句和函数</title>
+      <link href="/articles/b1dbc5c7/"/>
+      <url>/articles/b1dbc5c7/</url>
+      
+        <content type="html"><![CDATA[<div class="note info simple"><p>本文参考Crash Course课程</p></div><p>语句：表达单个完整思想<br>语法：规定句子结构的一系列规则<br>赋值语句：把一个值赋给一个变量<br>程序：由一个个指令组成，从上到下执行<br>初始化：设置最开始的值<br>控制流语句（条件语句）：最常见的为if语句<br>条件循环：例如while<br>函数：也叫方法和子程序<br>RETURN语句：返回值<br>模块化编程：便于团队制作大型程序<br>库：预先写好的函数集合</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> CS自学笔记 </category>
+          
+          <category> CrashCourse </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CS </tag>
+            
+            <tag> CS自学指南 </tag>
+            
+            <tag> CrashCourse </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>编程语言发展史</title>
       <link href="/articles/fbdd2f2a/"/>
       <url>/articles/fbdd2f2a/</url>
