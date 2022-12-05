@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>算法入门</title>
+      <link href="/articles/6e05dea4/"/>
+      <url>/articles/6e05dea4/</url>
+      
+        <content type="html"><![CDATA[<div class="note info simple"><p>本文参考Crash Course课程</p></div><p>算法：解决问题的具体步骤<br>记载最多的算法——排序算法<br>算法复杂度（大O表示法）：算法的输入大小和运行步骤之间的关系，表示运行速度的量级<br>选择排序：从第一个数开始，找到其中最小的数，并与之交换位置，最终得到排序结果，算法复杂度为O（n^2）<br>归并排序：</p><ol><li>检查数组大小是否 &gt; 1</li><li>如果是，把数组分成两半，重复步骤1；如果否，进行步骤3</li><li>每两组进行大小比较，小的放前，大的放后<br>算法复杂度为O（n*log n）</li></ol><p>图搜索算法<br>图：用线连起来的一堆节点<br>路线长度：可以用成本或权重代称<br>暴力算法：复杂度为O（n！），n为节点数<br>Dijkstra算法：最初版本构思于1956年，从成本最低的节点开始，跑到所有相邻节点，记录成本，计算到每点的最低成本即可，算法复杂度最初为O（n^2），现经过改进为O（n log n + l），n为节点数，l为多少条线</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> CS自学笔记 </category>
+          
+          <category> CrashCourse </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CS </tag>
+            
+            <tag> CS自学指南 </tag>
+            
+            <tag> CrashCourse </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>语句和函数</title>
       <link href="/articles/b1dbc5c7/"/>
       <url>/articles/b1dbc5c7/</url>
