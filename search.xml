@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>数据结构</title>
+      <link href="/articles/79666db/"/>
+      <url>/articles/79666db/</url>
+      
+        <content type="html"><![CDATA[<div class="note info simple"><p>本文参考Crash Course课程</p></div><p>数组（Array）也叫列表（list）或向量（Vector），在内存中按顺序储存<br>下标（index）：数组下标从0开始，用[]代表访问数组<br>字符串（string）：由字母，数字，标点组成的数组，字符串在数组里以二进制0结尾，叫字符null<br>strcat：字符串拼接<br>矩阵（Matrix）：二维数组<br>结构体（Struct）：多个变量打包在一起</p><p>节点（Node）：存一个变量和一个指针的结构体<br>指针：是一种特殊变量，指向一个内存地址<br>链表：灵活数据结构，能存多个节点<br>循环链表：最后一个指针指向第一个数据<br>单向链表：最后一个指针指向null<br>队列（queue）：先进先出（FIFO），入队（enqueue），出队（dequeue）<br>栈（stack）：后进先出（LIFO），入栈（push），出栈（pop）</p><p>树：存一个变量和两个指针的结构体<br><img src="/image/20221206-1.png" alt="树"><br>根节点：最高的节点<br>子节点：根节点下的所有节点<br>母节点：任何子节点的直属上层节点<br>叶节点：没有任何子节点的节点，树结束的地方<br>二叉树（binary tree）：节点最多只可以有两个子节点<br>根到叶是单向的</p><p>图：可以用有多个指针的节点表示，可以随意指向</p><p>演化：红黑树和堆</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> CS自学笔记 </category>
+          
+          <category> CrashCourse </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CS </tag>
+            
+            <tag> CS自学指南 </tag>
+            
+            <tag> CrashCourse </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>算法入门</title>
       <link href="/articles/6e05dea4/"/>
       <url>/articles/6e05dea4/</url>
