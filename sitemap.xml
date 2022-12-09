@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pochacco.top/tags/index.html</loc>
+    
+    <lastmod>2022-12-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pochacco.top/link/index.html</loc>
     
     <lastmod>2022-12-09</lastmod>
@@ -12,15 +21,6 @@
   
   <url>
     <loc>https://pochacco.top/music/index.html</loc>
-    
-    <lastmod>2022-12-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pochacco.top/tags/index.html</loc>
     
     <lastmod>2022-12-09</lastmod>
     
@@ -48,6 +48,33 @@
   
   <url>
     <loc>https://pochacco.top/film/index.html</loc>
+    
+    <lastmod>2022-12-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pochacco.top/categories/index.html</loc>
+    
+    <lastmod>2022-12-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pochacco.top/charts/index.html</loc>
+    
+    <lastmod>2022-12-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pochacco.top/comments/index.html</loc>
     
     <lastmod>2022-12-09</lastmod>
     
@@ -327,33 +354,6 @@
   
   <url>
     <loc>https://pochacco.top/bilibili/index.html</loc>
-    
-    <lastmod>2022-12-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pochacco.top/categories/index.html</loc>
-    
-    <lastmod>2022-12-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pochacco.top/charts/index.html</loc>
-    
-    <lastmod>2022-12-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pochacco.top/comments/index.html</loc>
     
     <lastmod>2022-12-09</lastmod>
     
