@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>内存&amp;储存介质</title>
+      <link href="/articles/ecb50ff1/"/>
+      <url>/articles/ecb50ff1/</url>
+      
+        <content type="html"><![CDATA[<div class="note info simple"><p>本文参考Crash Course课程</p></div><p>电脑内存一般是“非永久性”的，称为易失性存储器<br>存储器（storage）：非易失性的<br>最早的存储介质：打孔纸卡与打孔纸带，一张卡能存960位数据<br>延迟线存储器（顺序存储器，循环存储器）：利用声波和麦克风储存，同一时刻只能读取1bit，应用于EDVAC计算机，由128条延迟线，每条存352位，总共存45000位（bit），是最早的存储程序计算机<br>随机存取存储器：可以随时访问任何位置<br>磁致伸缩延迟存储器：用金属线的震动来表示数据<br>磁芯存储器：9块最多储存9216位，第一次大规模应用在麻省理工的Whirlwind 1计算机上，建于1953年<br>1951年，设计了UNIVAC的新电脑，最早进行商业销售的电脑，推出了新的储存：磁带<br>磁鼓存储器<br>硬盘：很多盘叠在一起，IBM上的RAMAC 305有50张24英寸直径磁盘，总共可储存5MB<br>寻道时间：找到特定硬盘数据所需时间<br>1970年，硬盘开始普遍<br>软盘：软盘是软的，便携<br>密度高的软盘：Zip Disks<br>1972年出现光学储存器，12英寸激光盘，后来出现光盘（简称CD）以及DVD<br>第一个RAM集成电路出现在1972年<br>机械硬盘被固态硬盘代替，简称SSD</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> CS自学笔记 </category>
+          
+          <category> CrashCourse </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CS </tag>
+            
+            <tag> CS自学指南 </tag>
+            
+            <tag> CrashCourse </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>操作系统</title>
       <link href="/articles/d04bd5bc/"/>
       <url>/articles/d04bd5bc/</url>
