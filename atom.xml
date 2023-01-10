@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>鹿啵包の小窝</title>
+  <icon>https://www.gravatar.com/avatar/38f469f0d513564df3a15762906e604d</icon>
+  <subtitle>Pochacco.top</subtitle>
+  <link href="https://pochacco.top/atom.xml" rel="self"/>
+  
+  <link href="https://pochacco.top/"/>
+  <updated>2023-01-07T14:00:43.292Z</updated>
+  <id>https://pochacco.top/</id>
+  
+  <author>
+    <name>Gabriel</name>
+    <email>2586970609@qq.com</email>
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>内存&amp;储存介质</title>
+    <link href="https://pochacco.top/articles/ecb50ff1/"/>
+    <id>https://pochacco.top/articles/ecb50ff1/</id>
+    <published>2022-12-23T07:00:00.000Z</published>
+    <updated>2023-01-07T14:00:43.292Z</updated>
+    
+    
+    <summary type="html">第十九节</summary>
+    
+    
+    
+    <category term="CS自学笔记" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/CrashCourse/"/>
+    
+    
+    <category term="CS" scheme="https://pochacco.top/tags/CS/"/>
+    
+    <category term="CS自学指南" scheme="https://pochacco.top/tags/CS%E8%87%AA%E5%AD%A6%E6%8C%87%E5%8D%97/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/tags/CrashCourse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>操作系统</title>
+    <link href="https://pochacco.top/articles/d04bd5bc/"/>
+    <id>https://pochacco.top/articles/d04bd5bc/</id>
+    <published>2022-12-20T11:14:00.000Z</published>
+    <updated>2023-01-07T14:00:43.299Z</updated>
+    
+    
+    <summary type="html">第十八节</summary>
+    
+    
+    
+    <category term="CS自学笔记" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/CrashCourse/"/>
+    
+    
+    <category term="CS" scheme="https://pochacco.top/tags/CS/"/>
+    
+    <category term="CS自学指南" scheme="https://pochacco.top/tags/CS%E8%87%AA%E5%AD%A6%E6%8C%87%E5%8D%97/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/tags/CrashCourse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>集成电路&amp;摩尔测试</title>
+    <link href="https://pochacco.top/articles/4302bc80/"/>
+    <id>https://pochacco.top/articles/4302bc80/</id>
+    <published>2022-12-19T09:22:00.000Z</published>
+    <updated>2023-01-07T14:00:43.295Z</updated>
+    
+    
+    <summary type="html">第十七节</summary>
+    
+    
+    
+    <category term="CS自学笔记" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/CrashCourse/"/>
+    
+    
+    <category term="CS" scheme="https://pochacco.top/tags/CS/"/>
+    
+    <category term="CS自学指南" scheme="https://pochacco.top/tags/CS%E8%87%AA%E5%AD%A6%E6%8C%87%E5%8D%97/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/tags/CrashCourse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>软件工程</title>
+    <link href="https://pochacco.top/articles/7821ac43/"/>
+    <id>https://pochacco.top/articles/7821ac43/</id>
+    <published>2022-12-19T09:07:00.000Z</published>
+    <updated>2023-01-07T14:00:43.291Z</updated>
+    
+    
+    <summary type="html">第十六节</summary>
+    
+    
+    
+    <category term="CS自学笔记" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/CrashCourse/"/>
+    
+    
+    <category term="CS" scheme="https://pochacco.top/tags/CS/"/>
+    
+    <category term="CS自学指南" scheme="https://pochacco.top/tags/CS%E8%87%AA%E5%AD%A6%E6%8C%87%E5%8D%97/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/tags/CrashCourse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>阿兰·图灵</title>
+    <link href="https://pochacco.top/articles/d3e0c195/"/>
+    <id>https://pochacco.top/articles/d3e0c195/</id>
+    <published>2022-12-09T04:27:00.000Z</published>
+    <updated>2023-01-07T14:00:43.289Z</updated>
+    
+    
+    <summary type="html">第十五节</summary>
+    
+    
+    
+    <category term="CS自学笔记" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/CrashCourse/"/>
+    
+    
+    <category term="CS" scheme="https://pochacco.top/tags/CS/"/>
+    
+    <category term="CS自学指南" scheme="https://pochacco.top/tags/CS%E8%87%AA%E5%AD%A6%E6%8C%87%E5%8D%97/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/tags/CrashCourse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据结构</title>
+    <link href="https://pochacco.top/articles/79666db/"/>
+    <id>https://pochacco.top/articles/79666db/</id>
+    <published>2022-12-06T07:06:00.000Z</published>
+    <updated>2023-01-07T14:00:43.290Z</updated>
+    
+    
+    <summary type="html">第十四节</summary>
+    
+    
+    
+    <category term="CS自学笔记" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/CrashCourse/"/>
+    
+    
+    <category term="CS" scheme="https://pochacco.top/tags/CS/"/>
+    
+    <category term="CS自学指南" scheme="https://pochacco.top/tags/CS%E8%87%AA%E5%AD%A6%E6%8C%87%E5%8D%97/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/tags/CrashCourse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>算法入门</title>
+    <link href="https://pochacco.top/articles/6e05dea4/"/>
+    <id>https://pochacco.top/articles/6e05dea4/</id>
+    <published>2022-12-05T10:02:00.000Z</published>
+    <updated>2023-01-07T14:00:43.288Z</updated>
+    
+    
+    <summary type="html">第十三节</summary>
+    
+    
+    
+    <category term="CS自学笔记" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/CrashCourse/"/>
+    
+    
+    <category term="CS" scheme="https://pochacco.top/tags/CS/"/>
+    
+    <category term="CS自学指南" scheme="https://pochacco.top/tags/CS%E8%87%AA%E5%AD%A6%E6%8C%87%E5%8D%97/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/tags/CrashCourse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>语句和函数</title>
+    <link href="https://pochacco.top/articles/b1dbc5c7/"/>
+    <id>https://pochacco.top/articles/b1dbc5c7/</id>
+    <published>2022-12-04T05:57:00.000Z</published>
+    <updated>2023-01-07T14:00:43.284Z</updated>
+    
+    
+    <summary type="html">第十二节</summary>
+    
+    
+    
+    <category term="CS自学笔记" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/CrashCourse/"/>
+    
+    
+    <category term="CS" scheme="https://pochacco.top/tags/CS/"/>
+    
+    <category term="CS自学指南" scheme="https://pochacco.top/tags/CS%E8%87%AA%E5%AD%A6%E6%8C%87%E5%8D%97/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/tags/CrashCourse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>编程语言发展史</title>
+    <link href="https://pochacco.top/articles/fbdd2f2a/"/>
+    <id>https://pochacco.top/articles/fbdd2f2a/</id>
+    <published>2022-12-03T10:50:00.000Z</published>
+    <updated>2022-12-03T16:25:00.246Z</updated>
+    
+    
+    <summary type="html">第十一节</summary>
+    
+    
+    
+    <category term="CS自学笔记" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/CrashCourse/"/>
+    
+    
+    <category term="CS" scheme="https://pochacco.top/tags/CS/"/>
+    
+    <category term="CS自学指南" scheme="https://pochacco.top/tags/CS%E8%87%AA%E5%AD%A6%E6%8C%87%E5%8D%97/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/tags/CrashCourse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>早期的编程方式</title>
+    <link href="https://pochacco.top/articles/90abd3d/"/>
+    <id>https://pochacco.top/articles/90abd3d/</id>
+    <published>2022-12-02T03:47:00.000Z</published>
+    <updated>2022-12-03T16:25:00.249Z</updated>
+    
+    
+    <summary type="html">第十节</summary>
+    
+    
+    
+    <category term="CS自学笔记" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/CrashCourse/"/>
+    
+    
+    <category term="CS" scheme="https://pochacco.top/tags/CS/"/>
+    
+    <category term="CS自学指南" scheme="https://pochacco.top/tags/CS%E8%87%AA%E5%AD%A6%E6%8C%87%E5%8D%97/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/tags/CrashCourse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>高级CPU设计</title>
+    <link href="https://pochacco.top/articles/152988cb/"/>
+    <id>https://pochacco.top/articles/152988cb/</id>
+    <published>2022-11-29T10:54:00.000Z</published>
+    <updated>2022-12-03T16:25:00.252Z</updated>
+    
+    
+    <summary type="html">第九节</summary>
+    
+    
+    
+    <category term="CS自学笔记" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/CrashCourse/"/>
+    
+    
+    <category term="CS" scheme="https://pochacco.top/tags/CS/"/>
+    
+    <category term="CS自学指南" scheme="https://pochacco.top/tags/CS%E8%87%AA%E5%AD%A6%E6%8C%87%E5%8D%97/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/tags/CrashCourse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>指令和程序</title>
+    <link href="https://pochacco.top/articles/f57da707/"/>
+    <id>https://pochacco.top/articles/f57da707/</id>
+    <published>2022-11-29T09:13:00.000Z</published>
+    <updated>2022-12-02T15:41:24.193Z</updated>
+    
+    
+    <summary type="html">第八节</summary>
+    
+    
+    
+    <category term="CS自学笔记" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/CrashCourse/"/>
+    
+    
+    <category term="CS" scheme="https://pochacco.top/tags/CS/"/>
+    
+    <category term="CS自学指南" scheme="https://pochacco.top/tags/CS%E8%87%AA%E5%AD%A6%E6%8C%87%E5%8D%97/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/tags/CrashCourse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>中央处理器</title>
+    <link href="https://pochacco.top/articles/dffce14c/"/>
+    <id>https://pochacco.top/articles/dffce14c/</id>
+    <published>2022-11-28T10:35:00.000Z</published>
+    <updated>2022-12-02T15:41:23.440Z</updated>
+    
+    
+    <summary type="html">第七节</summary>
+    
+    
+    
+    <category term="CS自学笔记" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/CrashCourse/"/>
+    
+    
+    <category term="CS" scheme="https://pochacco.top/tags/CS/"/>
+    
+    <category term="CS自学指南" scheme="https://pochacco.top/tags/CS%E8%87%AA%E5%AD%A6%E6%8C%87%E5%8D%97/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/tags/CrashCourse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>寄存器和内存</title>
+    <link href="https://pochacco.top/articles/ea3013ec/"/>
+    <id>https://pochacco.top/articles/ea3013ec/</id>
+    <published>2022-11-27T06:51:00.000Z</published>
+    <updated>2022-12-02T15:41:32.130Z</updated>
+    
+    
+    <summary type="html">第六节</summary>
+    
+    
+    
+    <category term="CS自学笔记" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/CrashCourse/"/>
+    
+    
+    <category term="CS" scheme="https://pochacco.top/tags/CS/"/>
+    
+    <category term="CS自学指南" scheme="https://pochacco.top/tags/CS%E8%87%AA%E5%AD%A6%E6%8C%87%E5%8D%97/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/tags/CrashCourse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>算术逻辑单元</title>
+    <link href="https://pochacco.top/articles/4f45fc20/"/>
+    <id>https://pochacco.top/articles/4f45fc20/</id>
+    <published>2022-11-27T03:50:00.000Z</published>
+    <updated>2022-12-02T15:41:44.431Z</updated>
+    
+    
+    <summary type="html">第五节</summary>
+    
+    
+    
+    <category term="CS自学笔记" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/CrashCourse/"/>
+    
+    
+    <category term="CS" scheme="https://pochacco.top/tags/CS/"/>
+    
+    <category term="CS自学指南" scheme="https://pochacco.top/tags/CS%E8%87%AA%E5%AD%A6%E6%8C%87%E5%8D%97/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/tags/CrashCourse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>二进制</title>
+    <link href="https://pochacco.top/articles/f5e3f89e/"/>
+    <id>https://pochacco.top/articles/f5e3f89e/</id>
+    <published>2022-11-26T05:02:00.000Z</published>
+    <updated>2022-12-02T15:41:51.567Z</updated>
+    
+    
+    <summary type="html">第四节</summary>
+    
+    
+    
+    <category term="CS自学笔记" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/CrashCourse/"/>
+    
+    
+    <category term="CS" scheme="https://pochacco.top/tags/CS/"/>
+    
+    <category term="CS自学指南" scheme="https://pochacco.top/tags/CS%E8%87%AA%E5%AD%A6%E6%8C%87%E5%8D%97/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/tags/CrashCourse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>布尔逻辑和逻辑门</title>
+    <link href="https://pochacco.top/articles/c2595a6b/"/>
+    <id>https://pochacco.top/articles/c2595a6b/</id>
+    <published>2022-11-25T10:45:00.000Z</published>
+    <updated>2022-12-01T04:32:35.586Z</updated>
+    
+    
+    <summary type="html">第三节</summary>
+    
+    
+    
+    <category term="CS自学笔记" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/CrashCourse/"/>
+    
+    
+    <category term="CS" scheme="https://pochacco.top/tags/CS/"/>
+    
+    <category term="CS自学指南" scheme="https://pochacco.top/tags/CS%E8%87%AA%E5%AD%A6%E6%8C%87%E5%8D%97/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/tags/CrashCourse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>电子计算机</title>
+    <link href="https://pochacco.top/articles/4d557b94/"/>
+    <id>https://pochacco.top/articles/4d557b94/</id>
+    <published>2022-11-25T04:56:00.000Z</published>
+    <updated>2022-12-01T04:32:35.584Z</updated>
+    
+    
+    <summary type="html">第二节</summary>
+    
+    
+    
+    <category term="CS自学笔记" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/CrashCourse/"/>
+    
+    
+    <category term="CS" scheme="https://pochacco.top/tags/CS/"/>
+    
+    <category term="CS自学指南" scheme="https://pochacco.top/tags/CS%E8%87%AA%E5%AD%A6%E6%8C%87%E5%8D%97/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/tags/CrashCourse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>计算机早期历史</title>
+    <link href="https://pochacco.top/articles/ec09da96/"/>
+    <id>https://pochacco.top/articles/ec09da96/</id>
+    <published>2022-11-25T02:27:19.000Z</published>
+    <updated>2022-11-27T06:51:46.603Z</updated>
+    
+    
+    <summary type="html">第一节</summary>
+    
+    
+    
+    <category term="CS自学笔记" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/CrashCourse/"/>
+    
+    
+    <category term="CS" scheme="https://pochacco.top/tags/CS/"/>
+    
+    <category term="CS自学指南" scheme="https://pochacco.top/tags/CS%E8%87%AA%E5%AD%A6%E6%8C%87%E5%8D%97/"/>
+    
+    <category term="CrashCourse" scheme="https://pochacco.top/tags/CrashCourse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>11月13日 星期日 天气晴</title>
+    <link href="https://pochacco.top/articles/96b9d504/"/>
+    <id>https://pochacco.top/articles/96b9d504/</id>
+    <published>2022-11-13T13:16:44.000Z</published>
+    <updated>2022-11-16T09:53:53.278Z</updated>
+    
+    
+    <summary type="html">第二届上上策漫展Day2</summary>
+    
+    
+    
+    <category term="日记杂谈" scheme="https://pochacco.top/categories/%E6%97%A5%E8%AE%B0%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="日记" scheme="https://pochacco.top/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>11月12日 星期六 天气小雪</title>
+    <link href="https://pochacco.top/articles/41a96602/"/>
+    <id>https://pochacco.top/articles/41a96602/</id>
+    <published>2022-11-12T12:45:07.000Z</published>
+    <updated>2022-11-16T09:53:53.282Z</updated>
+    
+    
+    <summary type="html">第二届上上策漫展Day1</summary>
+    
+    
+    
+    <category term="日记杂谈" scheme="https://pochacco.top/categories/%E6%97%A5%E8%AE%B0%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="日记" scheme="https://pochacco.top/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>11月11日 星期五 天气小雨</title>
+    <link href="https://pochacco.top/articles/2ff462c4/"/>
+    <id>https://pochacco.top/articles/2ff462c4/</id>
+    <published>2022-11-11T04:19:00.000Z</published>
+    <updated>2022-11-16T09:53:53.280Z</updated>
+    
+    
+    <summary type="html"> </summary>
+    
+    
+    
+    <category term="日记杂谈" scheme="https://pochacco.top/categories/%E6%97%A5%E8%AE%B0%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="日记" scheme="https://pochacco.top/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vim的使用</title>
+    <link href="https://pochacco.top/articles/7a43fd18/"/>
+    <id>https://pochacco.top/articles/7a43fd18/</id>
+    <published>2022-11-10T16:39:55.000Z</published>
+    <updated>2022-11-25T10:52:19.780Z</updated>
+    
+    
+    <summary type="html">高效代码编辑器Vim</summary>
+    
+    
+    
+    <category term="CS自学笔记" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="工具" scheme="https://pochacco.top/categories/CS%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="CS" scheme="https://pochacco.top/tags/CS/"/>
+    
+    <category term="CS自学指南" scheme="https://pochacco.top/tags/CS%E8%87%AA%E5%AD%A6%E6%8C%87%E5%8D%97/"/>
+    
+    <category term="工具" scheme="https://pochacco.top/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>11月10日 星期四 天气多云</title>
+    <link href="https://pochacco.top/articles/a15f21c3/"/>
+    <id>https://pochacco.top/articles/a15f21c3/</id>
+    <published>2022-11-10T11:47:58.000Z</published>
+    <updated>2022-11-16T09:53:53.276Z</updated>
+    
+    
+    <summary type="html"> </summary>
+    
+    
+    
+    <category term="日记杂谈" scheme="https://pochacco.top/categories/%E6%97%A5%E8%AE%B0%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="日记" scheme="https://pochacco.top/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>11月9日 星期三 天气晴</title>
+    <link href="https://pochacco.top/articles/6d25e45/"/>
+    <id>https://pochacco.top/articles/6d25e45/</id>
+    <published>2022-11-09T13:05:00.000Z</published>
+    <updated>2022-11-16T09:53:53.281Z</updated>
+    
+    
+    <summary type="html">快乐的一天</summary>
+    
+    
+    
+    <category term="日记杂谈" scheme="https://pochacco.top/categories/%E6%97%A5%E8%AE%B0%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="日记" scheme="https://pochacco.top/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo禁用F12调试模式</title>
+    <link href="https://pochacco.top/articles/1d2825e1/"/>
+    <id>https://pochacco.top/articles/1d2825e1/</id>
+    <published>2022-11-07T06:05:16.000Z</published>
+    <updated>2022-11-25T10:45:31.421Z</updated>
+    
+    
+    <summary type="html">如何禁用F12和调试模式</summary>
+    
+    
+    
+    <category term="Hexo博客" scheme="https://pochacco.top/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="Hexo" scheme="https://pochacco.top/tags/Hexo/"/>
+    
+    <category term="Butterfly" scheme="https://pochacco.top/tags/Butterfly/"/>
+    
+    <category term="web" scheme="https://pochacco.top/tags/web/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>雅思个人2022年9到12月口语题库</title>
+    <link href="https://pochacco.top/articles/acddc89f/"/>
+    <id>https://pochacco.top/articles/acddc89f/</id>
+    <published>2022-11-04T14:04:11.000Z</published>
+    <updated>2022-11-07T06:03:14.770Z</updated>
+    
+    
+    <summary type="html">雅思2022年9到12月口语题库</summary>
+    
+    
+    
+    <category term="IELTS" scheme="https://pochacco.top/categories/IELTS/"/>
+    
+    
+    <category term="IELTS" scheme="https://pochacco.top/tags/IELTS/"/>
+    
+    <category term="Speaking" scheme="https://pochacco.top/tags/Speaking/"/>
+    
+    <category term="Part2口语题库" scheme="https://pochacco.top/tags/Part2%E5%8F%A3%E8%AF%AD%E9%A2%98%E5%BA%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HackerGame2022WriteUp</title>
+    <link href="https://pochacco.top/articles/b8d13f57/"/>
+    <id>https://pochacco.top/articles/b8d13f57/</id>
+    <published>2022-10-29T04:00:00.000Z</published>
+    <updated>2022-11-07T06:04:22.755Z</updated>
+    
+    
+    <summary type="html">WriteUp</summary>
+    
+    
+    
+    <category term="CTFWriteUp" scheme="https://pochacco.top/categories/CTFWriteUp/"/>
+    
+    
+    <category term="hackergame" scheme="https://pochacco.top/tags/hackergame/"/>
+    
+    <category term="CTF" scheme="https://pochacco.top/tags/CTF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DiscoArtAI本地部署</title>
+    <link href="https://pochacco.top/articles/ce2bff93/"/>
+    <id>https://pochacco.top/articles/ce2bff93/</id>
+    <published>2022-10-21T04:30:00.000Z</published>
+    <updated>2022-11-07T06:04:29.728Z</updated>
+    
+    
+    <summary type="html">随着NovelAI包的泄露，越来越多的人开始使用AI绘画，DiscoArt采用Disco Diffusion数据集，擅长于风景绘画，如今与Stable Diffusion，NovelAI，Midjourney并称四大AI绘画工具，其中Disco Diffusion，Stable Diffusion，NovelAI为开源项目并可自行本地部署，Midjourney为订阅项目，如需画二次元人物，请移步NovelAI。</summary>
+    
+    
+    
+    <category term="实用教程" scheme="https://pochacco.top/categories/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="机器学习" scheme="https://pochacco.top/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="AI绘画" scheme="https://pochacco.top/tags/AI%E7%BB%98%E7%94%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>InvokeAI本地部署</title>
+    <link href="https://pochacco.top/articles/c3dfb6a9/"/>
+    <id>https://pochacco.top/articles/c3dfb6a9/</id>
+    <published>2022-10-21T04:15:00.000Z</published>
+    <updated>2022-11-25T10:45:46.397Z</updated>
+    
+    
+    <summary type="html">随着NovelAI包的泄露，越来越多的人开始使用AI绘画，DiscoArt采用Disco Diffusion数据集，擅长于风景绘画，如今与Stable Diffusion，NovelAI，Midjourney并称四大AI绘画工具，其中Disco Diffusion，Stable Diffusion，NovelAI为开源项目并可自行本地部署，Midjourney为订阅项目，如需画二次元人物，请移步NovelAI。</summary>
+    
+    
+    
+    <category term="实用教程" scheme="https://pochacco.top/categories/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="机器学习" scheme="https://pochacco.top/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="AI绘画" scheme="https://pochacco.top/tags/AI%E7%BB%98%E7%94%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NovelAI本地部署</title>
+    <link href="https://pochacco.top/articles/b75672c/"/>
+    <id>https://pochacco.top/articles/b75672c/</id>
+    <published>2022-10-11T06:00:00.000Z</published>
+    <updated>2022-11-07T06:04:40.393Z</updated>
+    
+    
+    <summary type="html">随着NovelAI包的泄露，越来越多的人开始使用AI绘画，DiscoArt采用Disco Diffusion数据集，擅长于风景绘画，如今与Stable Diffusion，NovelAI，Midjourney并称四大AI绘画工具，其中Disco Diffusion，Stable Diffusion，NovelAI为开源项目并可自行本地部署，Midjourney为订阅项目，如需画二次元人物，请移步NovelAI。</summary>
+    
+    
+    
+    <category term="实用教程" scheme="https://pochacco.top/categories/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="机器学习" scheme="https://pochacco.top/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="AI绘画" scheme="https://pochacco.top/tags/AI%E7%BB%98%E7%94%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>雅思个人2022年5到8月口语题库</title>
+    <link href="https://pochacco.top/articles/d8b154c3/"/>
+    <id>https://pochacco.top/articles/d8b154c3/</id>
+    <published>2022-08-25T04:00:00.000Z</published>
+    <updated>2022-11-07T04:53:08.184Z</updated>
+    
+    
+    <summary type="html">雅思2022年5到8月口语题库</summary>
+    
+    
+    
+    <category term="IELTS" scheme="https://pochacco.top/categories/IELTS/"/>
+    
+    
+    <category term="IELTS" scheme="https://pochacco.top/tags/IELTS/"/>
+    
+    <category term="Speaking" scheme="https://pochacco.top/tags/Speaking/"/>
+    
+    <category term="Part2口语题库" scheme="https://pochacco.top/tags/Part2%E5%8F%A3%E8%AF%AD%E9%A2%98%E5%BA%93/"/>
+    
+  </entry>
+  
+</feed>
