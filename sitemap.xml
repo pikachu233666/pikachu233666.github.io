@@ -2,24 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://pochacco.top/tags/index.html</loc>
-    
-    <lastmod>2023-01-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pochacco.top/uptime-status/index.html</loc>
-    
-    <lastmod>2023-01-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pochacco.top/link/index.html</loc>
     
     <lastmod>2023-01-14</lastmod>
@@ -38,7 +20,16 @@
   </url>
   
   <url>
-    <loc>https://pochacco.top/img/siteicon/README.html</loc>
+    <loc>https://pochacco.top/tags/index.html</loc>
+    
+    <lastmod>2023-01-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pochacco.top/uptime-status/index.html</loc>
     
     <lastmod>2023-01-14</lastmod>
     
@@ -48,6 +39,15 @@
   
   <url>
     <loc>https://pochacco.top/img/siteicon/manifest.json</loc>
+    
+    <lastmod>2023-01-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pochacco.top/img/siteicon/README.html</loc>
     
     <lastmod>2023-01-14</lastmod>
     
