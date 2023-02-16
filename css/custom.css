@@ -2108,6 +2108,11 @@ header:not(.nav-fixed) #nav #hotkey #top-button {
 
 
 /*音乐页面*/
+/*取消灵动球*/
+body:has(#anMusic-page) #footer, body:has(#anMusic-page) #nav-music {
+  display: none;
+}
+/*主配置*/
 #page:has(#anMusic-page) {
   border: 0;
   box-shadow: none !important;
