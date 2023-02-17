@@ -31,6 +31,39 @@
     
     
     <entry>
+      <title>Web内容挖掘</title>
+      <link href="/articles/4bc40d43/"/>
+      <url>/articles/4bc40d43/</url>
+      
+        <content type="html"><![CDATA[<div class="note warning simple"><p>声明：<br>请遵守《中华人民共和国网络安全法》，禁止进行未经授权的渗透测试行为！<br>本人不提供任何攻击教程及工具，本文仅作研究和学习用途，请勿利用文中的技术资料进行未经授权的测试行为。利用文中所提供的信息对未授权的计算机系统造成的直接或间接后果和损失，由使用者承担。</p></div><p>内容挖掘分为三类：</p><ul><li>手动</li><li>自动</li><li>OSINT（公开来源情报）</li></ul><h1 id="手动挖掘-Robots-txt"><a href="#手动挖掘-Robots-txt" class="headerlink" title="手动挖掘-Robots.txt"></a>手动挖掘-Robots.txt</h1><p>robots.txt是一个告诉搜索引擎哪个页面该被允许或禁止进行爬取和显示在搜索结果的文件，通常用来限制显示搜索结果，被禁止的区域通常为管理页面</p><h1 id="手动挖掘-Favicon"><a href="#手动挖掘-Favicon" class="headerlink" title="手动挖掘-Favicon"></a>手动挖掘-Favicon</h1><p>Favicon是展示在浏览器地址栏的图标，通常是商标<br>有时站长用一个框架来建站，可能会遗留一个favicon在地址栏，这可以让我们知道站点用的是什么框架，可以在OWASP提供的<a href="https://wiki.owasp.org/index.php/OWASP_favicon_database">favicon数据库查询</a>，一旦我们知道了框架，就可以进一步挖掘，可以通过以下指令来计算favicon的md5 hash值</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl &#x27;https://....../favicon.ico&#x27; | md5sum</span><br></pre></td></tr></table></figure><h1 id="手动挖掘-Sitemap-xml"><a href="#手动挖掘-Sitemap-xml" class="headerlink" title="手动挖掘-Sitemap.xml"></a>手动挖掘-Sitemap.xml</h1><p>和robots.txt不同， sitemap列出了站长希望在搜索引擎中展示的每一个网页，通常展示一些难以定位网页或旧网页</p><h1 id="手动挖掘-HTTP-Headers"><a href="#手动挖掘-HTTP-Headers" class="headerlink" title="手动挖掘-HTTP Headers"></a>手动挖掘-HTTP Headers</h1><p>当我们向web服务器发送请求时，服务器会返回一个请求头，可能包含很多有用的信息例如服务器软件和所用的编程语言，curl指令的-v会启动详细模式</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl http://...... -v</span><br></pre></td></tr></table></figure><h1 id="手动挖掘-Framework-Stack"><a href="#手动挖掘-Framework-Stack" class="headerlink" title="手动挖掘-Framework Stack"></a>手动挖掘-Framework Stack</h1><p>一旦你通过favicon或者网站源码发现了一个网站的框架，你可以找到框架的网站，我们可以了解到网杂货你的软件和其他信息</p><h1 id="OSINT-Google-Hacking-Dorking"><a href="#OSINT-Google-Hacking-Dorking" class="headerlink" title="OSINT-Google Hacking / Dorking"></a>OSINT-Google Hacking / Dorking</h1><p>利用谷歌引擎的高级搜索功能</p><table><thead><tr><th align="center">筛选器</th><th align="center">例子</th><th align="center">描述</th></tr></thead><tbody><tr><td align="center">site</td><td align="center">site:pochacco.top</td><td align="center">只返回特定网站的结果</td></tr><tr><td align="center">inurl</td><td align="center">inurl:admin</td><td align="center">返回在特定网站中有特殊词的结果</td></tr><tr><td align="center">filetype</td><td align="center">filetype:pdf</td><td align="center">返回特定文件格式的结果</td></tr><tr><td align="center">intitle</td><td align="center">intitle:admin</td><td align="center">返回标题中含有关键词的结果</td></tr></tbody></table><h1 id="OSINT-Wappalyzer"><a href="#OSINT-Wappalyzer" class="headerlink" title="OSINT-Wappalyzer"></a>OSINT-Wappalyzer</h1><p><a href="https://www.wappalyzer.com/">Wappalyzer</a>是一个浏览器拓展插件，可以确定网杂货你使用的技术例如框架，CMS及其他</p><h1 id="OSINT-Wayback-Machine"><a href="#OSINT-Wayback-Machine" class="headerlink" title="OSINT-Wayback Machine"></a>OSINT-Wayback Machine</h1><p><a href="https://archive.org/web/">The Wayback Machine</a>是一个网站历史存档，可以通过搜索域名来查看网站过去的页面，可能会有沿用至今的页面</p><h1 id="OSINT-Github"><a href="#OSINT-Github" class="headerlink" title="OSINT-Github"></a>OSINT-Github</h1><p>Git是一个版本控制系统，可以在github上查看文件的历史修改记录和源码</p><h1 id="OSINT-S3-Buckets"><a href="#OSINT-S3-Buckets" class="headerlink" title="OSINT-S3 Buckets"></a>OSINT-S3 Buckets</h1><p>是一个由AmzonAWS提供的储存桶服务，可以用来搭建静态网站，搭建的网站网址格式为http(s)://{name}.s3.amazonaws.com，一般公司的命名方式为{name}-assets, {name}-www, {name}-public, {name}-private</p><h1 id="自动挖掘"><a href="#自动挖掘" class="headerlink" title="自动挖掘"></a>自动挖掘</h1><p>利用词典自动挖掘存在的网址<br>词典：<a href="https://github.com/danielmiessler/SecLists">SecList</a></p><p>自动工具：<br>ffuf:</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ffuf -w /usr/share/wordlists/SecLists/Discovery/Web-Content/common.txt -u http://....../FUZZ</span><br></pre></td></tr></table></figure><p>dirb:</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dirb http://....../ /usr/share/wordlists/SecLists/Discovery/Web-Content/common.txt</span><br></pre></td></tr></table></figure><p>Gobuster:</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gobuster dir --url http://....../ -w /usr/share/wordlists/SecLists/Discovery/Web-Content/common.txt</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> CyberSecurity </category>
+          
+          <category> THM </category>
+          
+          <category> JR </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JR渗透 </tag>
+            
+            <tag> CyberSecurity </tag>
+            
+            <tag> Web </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>2022年度总结</title>
       <link href="/articles/622a5765/"/>
       <url>/articles/622a5765/</url>
