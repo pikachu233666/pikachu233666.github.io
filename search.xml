@@ -4,6 +4,39 @@
   
     
     <entry>
+      <title>不安全的直接对象引用</title>
+      <link href="/articles/8176719c/"/>
+      <url>/articles/8176719c/</url>
+      
+        <content type="html"><![CDATA[<div class="note warning simple"><p>声明：<br>请遵守《中华人民共和国网络安全法》，禁止进行未经授权的渗透测试行为！<br>本人不提供任何攻击教程及工具，本文仅作研究和学习用途，请勿利用文中的技术资料进行未经授权的测试行为。利用文中所提供的信息对未授权的计算机系统造成的直接或间接后果和损失，由使用者承担。</p></div><p>IDOR（Insecure Direct Object Reference）是不安全的直接对象引用，是一种访问控制漏洞，这种漏洞在服务器接受用户检索对象（文件，数据，文档）的输入时出现，对于输入的数据过度信任，且不在服务端确认请求的对象是否属于请求的对象</p><p>例子：<br>http://……/profile?user_id=1<br>例子中如果id=1更改为2可以访问，则为IDOR漏洞</p><h1 id="Encoded-IDs"><a href="#Encoded-IDs" class="headerlink" title="Encoded IDs"></a>Encoded IDs</h1><p>当通过发送数据，字符串查询或者cookies从一个页面向另一个页面传输数据时，开发者会先加密数据，将二进制数据转为ASCII，最常见的是base64,可以用<a href="https://www.base64decode.org/">Base64</a>解码，更改数据并加密再次提交</p><h1 id="Unpredictable-IDs"><a href="#Unpredictable-IDs" class="headerlink" title="Unpredictable IDs"></a>Unpredictable IDs</h1><p>如果ID不能被解密，可以创建两个用户然后切换id的数字</p><h1 id="位置"><a href="#位置" class="headerlink" title="位置"></a>位置</h1><p>并不是所有的漏洞点都在URL，可能存在与AJAX请求和JS文件中<br>例子，有时 /user/details展现自己的信息，但/user/details?user_id=123展示别人的信息</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> CyberSecurity </category>
+          
+          <category> THM </category>
+          
+          <category> JR </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JR渗透 </tag>
+            
+            <tag> CyberSecurity </tag>
+            
+            <tag> Web </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>权限绕过</title>
       <link href="/articles/dbe6a625/"/>
       <url>/articles/dbe6a625/</url>
