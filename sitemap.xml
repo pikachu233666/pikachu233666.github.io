@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://pochacco.top/img/siteicon/manifest.json</loc>
+    <loc>https://pochacco.top/img/siteicon/README.html</loc>
     
     <lastmod>2023-03-13</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://pochacco.top/img/siteicon/README.html</loc>
+    <loc>https://pochacco.top/img/siteicon/manifest.json</loc>
     
     <lastmod>2023-03-13</lastmod>
     
@@ -75,6 +75,15 @@
   
   <url>
     <loc>https://pochacco.top/film/index.html</loc>
+    
+    <lastmod>2023-03-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pochacco.top/articles/a0af48ee/</loc>
     
     <lastmod>2023-03-13</lastmod>
     
@@ -263,7 +272,7 @@
   </url>
   
   <url>
-    <loc>https://pochacco.top/bilibili/index.html</loc>
+    <loc>https://pochacco.top/bangumis/index.html</loc>
     
     <lastmod>2023-03-13</lastmod>
     
@@ -272,7 +281,7 @@
   </url>
   
   <url>
-    <loc>https://pochacco.top/bangumis/index.html</loc>
+    <loc>https://pochacco.top/bilibili/index.html</loc>
     
     <lastmod>2023-03-13</lastmod>
     
@@ -335,7 +344,7 @@
   </url>
   
   <url>
-    <loc>https://pochacco.top/articles/96b9d504/</loc>
+    <loc>https://pochacco.top/articles/41a96602/</loc>
     
     <lastmod>2023-03-13</lastmod>
     
@@ -344,7 +353,7 @@
   </url>
   
   <url>
-    <loc>https://pochacco.top/articles/41a96602/</loc>
+    <loc>https://pochacco.top/articles/96b9d504/</loc>
     
     <lastmod>2023-03-13</lastmod>
     
@@ -561,15 +570,6 @@
   
   <url>
     <loc>https://pochacco.top/articles/234a7ec9/</loc>
-    
-    <lastmod>2023-03-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pochacco.top/articles/a0af48ee/</loc>
     
     <lastmod>2023-03-13</lastmod>
     
