@@ -4,6 +4,39 @@
   
     
     <entry>
+      <title>文件包含漏洞</title>
+      <link href="/articles/4089de4e/"/>
+      <url>/articles/4089de4e/</url>
+      
+        <content type="html"><![CDATA[<div class="note warning simple"><p>声明：<br>请遵守《中华人民共和国网络安全法》，禁止进行未经授权的渗透测试行为！<br>本人不提供任何攻击教程及工具，本文仅作研究和学习用途，请勿利用文中的技术资料进行未经授权的测试行为。利用文中所提供的信息对未授权的计算机系统造成的直接或间接后果和损失，由使用者承担。</p></div><p>文件包含漏洞（File Inclusion）包括本地包含漏洞（LFI）和远程包含漏洞（RFI）以及目录遍历，网页应用在向目标系统请求文件（图片，文本）时通过参数，参数是一个URL中的查询参数字符串</p><p>用户向网站服务器发请求获取文件，首先，用户向包含文件的服务器发起HTTP请求，如果含有php漏洞或缺少输入检测。就会产生漏洞，可以获取敏感信息，如果有权写入/tmp文件夹，则能得到远程命令执行（RCE）</p><h1 id="路径遍历"><a href="#路径遍历" class="headerlink" title="路径遍历"></a>路径遍历</h1><p>路径遍历也叫目录遍历，一个网页安全漏洞允许攻击者读取网页资源，例如服务器本地资源，通过修改URL来定位根目录之外的资源</p><p>该漏洞在将用户输入传到PHP中函数例如<code>file_get_contents</code>时出现</p><p>可以通过添加payloads来测试URL参数去看网页应用的反应，路径遍历攻击，通常被称为dot-dot-slash攻击，用../来前移目录，如果攻击者发现了注入点，例如get.php?file=，就可以发送请求http://……/get.php?file=../../../../etc/passwd</p><p>Windows系统同理，例如访问boot.ini，请求http://……/get.php?file=../../../../boot.ini 或 http://……/get.php?file=../../../../windows/win.ini</p><p>常用文件：</p><table><thead><tr><th align="center">地址</th><th align="center">描述</th></tr></thead><tbody><tr><td align="center">/etc/issue</td><td align="center">在登录提示之前输出的消息或系统标识</td></tr><tr><td align="center">/etc/profile</td><td align="center">控制系统范围内的默认变量，如导出变量、文件创建掩码(umask)、终端类型、邮件消息（指示何时有新邮件到达）</td></tr><tr><td align="center">/prov/version</td><td align="center">Linux内核版本</td></tr><tr><td align="center">/etc/passwd</td><td align="center">所有已注册并可以访问系统的用户</td></tr><tr><td align="center">/etc/shadow</td><td align="center">系统用户密码的信息</td></tr><tr><td align="center">/root/.bash_history</td><td align="center">root用户的历史命令</td></tr><tr><td align="center">/var/log/dmessage</td><td align="center">全局系统消息，包括在系统启动期间记录的消息</td></tr><tr><td align="center">/var/mail/root</td><td align="center">root用户所有的邮件</td></tr><tr><td align="center">/root/.ssh/id_rsa</td><td align="center">服务器上根用户或任何已知有效用户的私有SSH密钥</td></tr><tr><td align="center">/var/log/apache2/access.log</td><td align="center">访问Apache web服务器的请求</td></tr><tr><td align="center">C:\boot.ini</td><td align="center">带有BIOS固件的计算机的启动选项</td></tr></tbody></table><h1 id="本地文件包含（LFS）"><a href="#本地文件包含（LFS）" class="headerlink" title="本地文件包含（LFS）"></a>本地文件包含（LFS）</h1><p>PHP中的include, require, include_once,和 require_once函数经常导致文件包含漏洞，用其他语言例如ASP, JSP, 或者Node.js也会出现</p><p>获取语言</p><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?</span>PHP </span><br><span class="line"><span class="keyword">include</span>(<span class="variable">$_GET</span>[<span class="string">&quot;lang&quot;</span>]);</span><br><span class="line"><span class="meta">?&gt;</span></span><br><span class="line">```shi xian</span><br><span class="line">用GET请求输入lang参数来更改语言，通过http:<span class="comment">//....../index.php?lang=EN.php 请求英文，这种情况下，可以尝试http://....../get.php?file=/etc/passwd  来获取密码</span></span><br><span class="line"></span><br><span class="line">```PHP</span><br><span class="line"><span class="meta">&lt;?</span>PHP </span><br><span class="line"><span class="keyword">include</span>(<span class="string">&quot;languages/&quot;</span>. <span class="variable">$_GET</span>[<span class="string">&#x27;lang&#x27;</span>]); </span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure><p>上面的代码制定了language文件夹，可以尝试http://……/index.php?lang=../../../../etc/passwd 获取</p><p>如果代码限定了获取文件的格式，例如限定后缀为.php，可以通过增加空字节（null bytes）<code>%00 </code>或<code> 0x00</code>来略过后面所有字符（PHP5.3.4后修复）</p><p>如果开发者加入了过滤关键词来防止泄露敏感信息，例如/etc/passwd, 则可以通过空字节NullByte或者当前目录技巧<code>/.</code>来绕过</p><p>PS：<br><code>cd .. </code>为返回上一级目录<br><code>cd . </code>为展示当前目录</p><p>如果开发者将<code>../</code>替换为空字符串，我们可以通过<code>....//....//....//....//....//etc/passwd</code>来绕过，PHP只会过滤首次找到的<code>../</code></p><h1 id="远程文件包含（RFI）"><a href="#远程文件包含（RFI）" class="headerlink" title="远程文件包含（RFI）"></a>远程文件包含（RFI）</h1><p>远程文件包含是一种将远程文件包含到易受攻击的应用程序中的技术，实现条件为<code>allow_url_fopen</code>为打开的状态</p><p>RFI的风险高于LFI,因为RFI允许攻击者拿到在服务器上的远程命令执行权限（RCE），RFI可能导致敏感信息泄漏，跨站脚本攻击（XSS），服务拒绝（DoS）</p><p>进行RFI攻击外部服务器必须与应用服务器通信，攻击者在服务器上托管而已文件，然后通过HTTP请求注入到include函数中，使恶意文件在应用服务器上运行</p><h1 id="修复"><a href="#修复" class="headerlink" title="修复"></a>修复</h1><p>为了防止文件包含漏洞</p><ol><li>保持系统，服务，和网页应用框架为最新版本</li><li>关闭PHP错误显示，以避免泄露应用程序的路径和其他潜在的泄露信息</li><li>打开网络应用防火墙</li><li>在不需要的情况下关闭一些导致文件包含漏洞的功能，例如<code>allow_url_fopen</code>和<code>allow_url_include</code></li><li>仔细分析网络程序并只打开用到的协议和PHP封装</li><li>永远不要相信用户的输入，确保有特定的输入检测来防止文件包含</li><li>实现文件名字白名单和路径黑名单</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> CyberSecurity </category>
+          
+          <category> THM </category>
+          
+          <category> JR </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JR渗透 </tag>
+            
+            <tag> CyberSecurity </tag>
+            
+            <tag> Web </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>雅思个人2023年1到4月口语题库</title>
       <link href="/articles/b05b0975/"/>
       <url>/articles/b05b0975/</url>
