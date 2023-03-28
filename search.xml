@@ -37,6 +37,39 @@
     
     
     <entry>
+      <title>服务器端请求伪造</title>
+      <link href="/articles/7ccfc52f/"/>
+      <url>/articles/7ccfc52f/</url>
+      
+        <content type="html"><![CDATA[<div class="note warning simple"><p>声明：<br>请遵守《中华人民共和国网络安全法》，禁止进行未经授权的渗透测试行为！<br>本人不提供任何攻击教程及工具，本文仅作研究和学习用途，请勿利用文中的技术资料进行未经授权的测试行为。利用文中所提供的信息对未授权的计算机系统造成的直接或间接后果和损失，由使用者承担。</p></div><p>SSRF是服务器端请求伪造，允许恶意用户让网站服务器向攻击者选择的资源做一个额外或修改现有的的HTTP请求</p><p>SSRF有两种，一种是常规的SSRF，数据会返回到攻击者的屏幕上，另一种是隐式SSRF，不会有信息返回到攻击者的屏幕上</p><p>SSRF会导致攻击者进入未经授权的区域，访问客户或公司化数据，扩展到内部网络，显示身份验证令牌/凭据</p><p>潜在的SSRF漏洞可能存在在</p><ul><li>地址栏的参数中使用完整的URL</li><li>在form中的隐藏区域</li><li>部分URL，例如主机名</li><li>URL的部分路径</li></ul><p>如果是blind SSRF，需要额外的HTTP登陆工具去监视，例如requestbin.com，自己的HTTP服务器或者BurpSuite的Collaborator客户端</p><h1 id="修复"><a href="#修复" class="headerlink" title="修复"></a>修复</h1><p>通过设定特定请求规则防止SSRF漏洞</p><h2 id="黑名单"><a href="#黑名单" class="headerlink" title="黑名单"></a>黑名单</h2><p>通过设置黑名单来保护敏感端点，ip地址或域名被公众访问，一个特别的端点是localhost，其中可能包含服务器性能数据或其他敏感信息，域名如localhost和127.0.0.1应在黑名单中，攻击者可以通过使用其他本地主机引用如<code>0、0.0.0.0、0000、127.1、127.*.*.* ，2130706433, 017700000001或具有解析到IP地址127.0.0.1的DNS记录的子域如127.0.0.1.nip.io</code>来绕过黑名单<br>在云环境中，应该屏蔽IP地址169.254.169.254，该地址包含部署部署云服务器的元数据，包含潜在的敏感信息，攻击者可以通过用自己的域名注册一个子域名，用DNS记录IP地址169.254.169.254来绕过</p><h2 id="白名单"><a href="#白名单" class="headerlink" title="白名单"></a>白名单</h2><p>白名单限定URL的参数必须以特定前缀开头，攻击者可以通过在自己域名上创建子域名进行绕过，应用程序逻辑允许这种输入，让攻击者控制内部HTTP请求</p><h2 id="开启重定向"><a href="#开启重定向" class="headerlink" title="开启重定向"></a>开启重定向</h2><p>如果以上这种绕过不生效，还以一种方法供攻击者使用——打开重定向，开放重定向是一个在服务器上的端点，网站访问者自动重定向到另一个网站地址，例如，https://……/link?url=<a href="https://pochacco.top/">https://pochacco.top</a> ，这个端点创建去记录访问者点击链接的次数（通常为了广告或营销目的），但是如果一个潜在的SSRF漏洞有一个严格的规则只允许URL开头为特定前缀，攻击者可以利用以上特征来重定向一个内部的HTTP请求到攻击者决定的域</p><p>修改中可以结合目录遍历和base64加密解密使用</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> CyberSecurity </category>
+          
+          <category> THM </category>
+          
+          <category> JR </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JR渗透 </tag>
+            
+            <tag> CyberSecurity </tag>
+            
+            <tag> Web </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>雅思个人2023年1到4月口语题库</title>
       <link href="/articles/b05b0975/"/>
       <url>/articles/b05b0975/</url>
