@@ -1,0 +1,76 @@
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+  left: -66px !important;
+  /* Ĭ��������������66px��ֻ��һ���ͷ���� */
+}
+
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+  left: 0 !important;
+  /* �����ͣ������������㣬��ȫ��ʾ��ť */
+}
+
+.aplayer.aplayer-fixed {
+    background: rgba(0, 0, 0, 0.6)!important;
+    backdrop-filter: blur(10px);
+    border-radius:0 4px 0 0!important;
+    color: #e1e1e1;
+}
+
+/*�޸���ɫģʽ�������ͣ���б�ʱ����ʽ*/
+.aplayer-list li:hover {
+    background: rgba(0, 0, 0, 0.5) !important;
+    backdrop-filter: blur(15px);
+}
+
+/*�޸ĸ����б�����ɫģʽ�µ���ʽ*/
+.aplayer-list {
+    background: rgba(12, 12, 12, 0) !important;
+    border-radius: 4px!important;
+    border: 1px solid #0d0d0d!important;
+}
+
+/*�޸���ɫģʽ���б���ǰѡ�еĸ�����ʽ*/
+.aplayer-list-light{
+    background: rgba(0,0,0,0.5)!important;
+    backdrop-filter: blur(10px);
+}
+
+/*��ɫģʽ�¸�����������������*/
+.aplayer-pic {
+    -webkit-filter: brightness(.7)!important;
+    filter: brightness(.7)!important;
+}
+
+/*ǿ�Ʋ���ʾ���*/
+.aplayer.aplayer-fixed .aplayer-lrc{
+  display: none!important;
+}
+
+.aplayer-body{
+  background: rgba(255,255,255,0.1)!important;
+  backdrop-filter: blur(10px);
+}
+
+/*�޸Ĳ����б����ڲ��Ÿ��������ʾ����ɫ*/
+.aplayer-list-cur{
+  background: #666!important;
+}
+
+/*�޸Ľ�������ɫ�������ô���Ĭ������ɫ #2980b9*/
+.aplayer-bar .aplayer-played,.aplayer-thumb{
+  background: #4c4948!important;
+}
+
+/*ɾ���ײ�����������Ϣ�߿�*/
+.aplayer-info{
+  border: none!important;
+}
+
+/*ɾ�������б��߿�*/
+.aplayer-list li {
+  border: none!important;
+}
+
+/*ɾ����ʰ�ť*/
+.aplayer-icon.aplayer-icon-lrc{
+  display: none!important;
+}
