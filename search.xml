@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>HackerGame2023WriteUp</title>
+      <link href="/articles/747b3fc9/"/>
+      <url>/articles/747b3fc9/</url>
+      
+        <content type="html"><![CDATA[<p>WriteUp</p><h1 id="General"><a href="#General" class="headerlink" title="General"></a>General</h1><h2 id="猫咪小测"><a href="#猫咪小测" class="headerlink" title="猫咪小测"></a>猫咪小测</h2><p>往年的猫咪问答题，描述的内容依然那么描述</p><ol><li>找到<a href="https://lib.ustc.edu.cn/">USTC图书馆官网</a>,通过搜索A Classical Introduction To Modern Number Theory得到<a href="http://opac.lib.ustc.edu.cn/opac/item.php?marc_no=575078636244796b507a7652745556665243786f38637a3241695a2b3159416a54696e30697776624f496f3d">本书网站</a>，得知此书在西区图书馆12楼。</li><li>通过关键词“可观测宇宙中的鸡的密度上限”可以查到<a href="https://www.zhihu.com/question/20337132/answer/3023506910">知乎文章</a>,得知上限为10的23次方</li><li>通过查找得知，从<a href="https://m.zohead.com/archives/openvz-uml-bbr/">网站</a>可以知道答案为<code>CONFIG_TCP_CONG_BBR</code><br>答出3道题即可得到第一个<code>flag&#123;WE1com3-T0-@t7EnD-7HE-neKo-EX4M-ZO23&#125;</code></li><li>由题干得知，关键词为mypy, halting problem, essay, 2023,得出文章为<a href="https://drops.dagstuhl.de/opus/volltexte/2023/18237/pdf/LIPIcs-ECOOP-2023-44.pdf">Python Type Hints are Turing Complete</a>,由此得知为ECOOP<h2 id="旅行照片-3-0"><a href="#旅行照片-3-0" class="headerlink" title="旅行照片 3.0"></a>旅行照片 3.0</h2></li></ol><h1 id="Web"><a href="#Web" class="headerlink" title="Web"></a>Web</h1><h2 id="Hackergame-启动"><a href="#Hackergame-启动" class="headerlink" title="Hackergame 启动"></a>Hackergame 启动</h2><p>签到题，发现要求录制音频，提交发现相似度要求99.99%，根据往年经验，观察URL，/?similarity=，故将其改为/?similarity=100，得到<code>flag&#123;Welcom3-7o-haCkErG@m3-aNd-EnJOY-h@Ck!nG-2023&#125;</code></p><h2 id="更深更暗"><a href="#更深更暗" class="headerlink" title="更深更暗"></a>更深更暗</h2><p>查看网页源码，开启检查器，当到1000米以下时，快速滑动滚轮时会出现flag，在瞬间截图可得到<code>flag&#123;T1t@n_751729e868855b06d83180caee38720a&#125;</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> CTFWriteUp </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hackergame </tag>
+            
+            <tag> CTF </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>文件包含漏洞</title>
       <link href="/articles/4089de4e/"/>
       <url>/articles/4089de4e/</url>
