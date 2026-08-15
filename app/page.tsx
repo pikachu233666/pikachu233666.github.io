@@ -66,7 +66,8 @@ export default function Home() {
         <div className="paper-art art-portal" aria-hidden="true"/>
         <nav className="portal-list" aria-label="Yubo's other links">
           <a href="/about"><span>About me</span><b>→</b></a>
-          <a href="https://www.instagram.com/lunariphotograph/" target="_blank" rel="noreferrer"><span>Lunari Photography</span><b>↗</b></a>
+          <a href="https://www.lunariphotograph.com/" target="_blank" rel="noreferrer"><span>Lunari Photography</span><b>↗</b></a>
+          <a href="https://www.instagram.com/lunariphotograph/" target="_blank" rel="noreferrer"><span>Lunari on Instagram</span><b>↗</b></a>
           <a href="https://github.com/pikachu233666" target="_blank" rel="noreferrer"><span>GitHub</span><b>↗</b></a>
           <a href="https://www.linkedin.com/in/yubosun1225/" target="_blank" rel="noreferrer"><span>LinkedIn</span><b>↗</b></a>
           <a href="mailto:sunyubo1225@gmail.com"><span>Email</span><b>↗</b></a>
