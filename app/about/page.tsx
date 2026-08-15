@@ -50,15 +50,16 @@ export default function AboutPage() {
         <span className="note-label">02 / away from the terminal</span>
         <h2>Light, people, places, and everything between.</h2>
         <p>When I&apos;m not at a terminal, I&apos;m usually carrying a camera—photographing city streets, landscapes, people, wildlife, the night sky, and the quiet details of everyday life.</p>
-        <p><strong>Lunari Photography</strong> is an open visual journal: no single subject, just the moments, colours, and stories that make me stop and look twice.</p>
+        <p><a href="https://www.lunariphotograph.com/" target="_blank" rel="noreferrer"><strong>Lunari Photography</strong></a> is an open visual journal: no single subject, just the moments, colours, and stories that make me stop and look twice.</p>
       </article>
 
       <aside className="about-connect">
         <p className="scribble">find me elsewhere</p>
         <nav aria-label="Contact and social links">
+          <a href="https://www.lunariphotograph.com/" target="_blank" rel="noreferrer">Lunari Photography <b>↗</b></a>
+          <a href="https://www.instagram.com/lunariphotograph/" target="_blank" rel="noreferrer">Lunari on Instagram <b>↗</b></a>
           <a href="https://github.com/pikachu233666" target="_blank" rel="noreferrer">GitHub <b>↗</b></a>
           <a href="https://www.linkedin.com/in/yubosun1225/" target="_blank" rel="noreferrer">LinkedIn <b>↗</b></a>
-          <a href="https://www.instagram.com/lunariphotograph/" target="_blank" rel="noreferrer">Lunari Photography <b>↗</b></a>
           <a href="mailto:sunyubo1225@gmail.com">Email <b>↗</b></a>
         </nav>
       </aside>
